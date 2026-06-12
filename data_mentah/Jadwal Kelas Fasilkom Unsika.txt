@@ -1,0 +1,239 @@
+JADWAL KELAS FASILKOM
+[IF] = Informatika | [SI] = Sistem Informasi
+
+=== SENIN ===
+
+SESI 1 (07.30-09.10)
+SI-2C | Iwan Ridwan | - | L4 R.75 [SI]
+SI-2A | Iwan Ridwan | - | L4 R.75 [SI]
+IF-4C | Oman Komarudin | Rekayasa Perangkat Lunak | L4 R.76 [IF]
+IF-4B | Irfan Sriyono Putro | Embedded Intelligent Systems | L4 R.77 [IF]
+IF-2B | Iqbal Maulana | Statistika dan Probabilitas | L4 R.78 [IF]
+IF-6A | Rini Mayasari | Manajemen Proyek Perangkat Lunak | L4 R.79 [IF]
+IF-2A | Purwantoro | Pemrograman Berorientasi Objek | L3 Lab Dasar 1 [IF]
+IF-4E | Agung Susilo Yudha Irawan | Sistem Operasi | L3 Lab Dasar 2 [IF]
+IF-6B | Aries Suharso | Machine Learning | L3 Lab Lanjut 1 [IF]
+IF-6D | Sofi Defiyanti | Machine Learning | L3 Lab Lanjut 2 [IF]
+
+SESI 2 (10.00-12.30)
+IF-2C | Asep Jamaludin | Struktur Data | L4 R.76 [IF]
+IF-4A | Purwantoro | Embedded Intelligent Systems | L4 R.77 [IF]
+SI-4A | Khusaeri | Supply Chain Management | L4 R.78 [SI]
+IF-6B | Rini Mayasari | Manajemen Proyek Perangkat Lunak | L4 R.79 [IF]
+SI-4C | Siska | Bisnis Intelegen | L4 R.80 [SI]
+SI-2C | Taufik | Algoritma dan Struktur Data | L3 Lab Dasar 1 [SI]
+IF-6E | Sofi Defiyanti | Machine Learning | L3 Lab Dasar 2 [IF]
+IF-4B | Kamal Prihandani | Pemrograman Berbasis Web | L3 Lab Lanjut 1 [IF]
+IF-6C | Aries Suharso | Machine Learning | L3 Lab Lanjut 2 [IF]
+IF-2B | Dr. Umi Nuraini | Budaya Bangsa | L4 R.75 [IF]
+
+SESI 3 (12.30-14.10)
+IF-2A | Dr. Umi Nuraini | Budaya Bangsa | L4 R.75 [IF]
+SI-4B | Siska | Bisnis Intelegen | L4 R.76 [SI]
+SI-4C | Khusaeri | Supply Chain Management | L4 R.77 [SI]
+IF-2C | Iqbal Maulana | Statistika dan Probabilitas | L4 R.78 [IF]
+SI-6B | Apriade | Karya Tulis Ilmiah | L4 R.79 [SI]
+IF-6PIL A | Ratna Mufidah | Big Data | L4 R.80 [IF]
+IF-4D | Agung Susilo Yudha Irawan | Sistem Operasi | L3 Lab Dasar 1 [IF]
+IF-4F | Dadang Yusup | Pemrograman Berbasis Web | L3 Lab Dasar 2 [IF]
+SI-2B | Taufik | Algoritma dan Struktur Data | L3 Lab Lanjut 1 [SI]
+SI-4D | Bagja | MLTI | L3 Lab Lanjut 2 [SI]
+
+SESI 4 (14.10-17.30)
+IF-2A | Dewi Herlina Sugiarti | Bahasa Indonesia | L4 R.75 [IF]
+SI-2C | Khusaeri | Communication Skill | L4 R.79 & L1 R.81 [SI]
+SI-4C | Nono | Keamanan Sistem | L4 R.76 [SI]
+SI-6B | Apriade | IIMK | L4 R.77 [SI]
+IF-6PIL A | Aji Primajaya | Business Intelligence | L4 R.79 [IF]
+IF-4F | Agung Susilo Yudha Irawan | Sistem Operasi | L3 Lab Dasar 1 [IF]
+IF-6C | Chaerur Rozikin | Pengolahan Citra Digital | L3 Lab Dasar 2 [IF]
+SI-2A | Taufik | Algoritma dan Struktur Data | L3 Lab Lanjut 1 [SI]
+SI-4B | Azhari | Jaringan | L3 Lab Lanjut 2 [SI]
+IF-2C | R. Bagus Irawan | Pancasila | L4 R.75 [IF]
+
+=== SELASA ===
+
+SESI 1 (07.30-09.10)
+IF-2A | Tesa Nur Padilah | Aljabar Linear | L4 R.75 [IF]
+IF-4A | Oman Komarudin | Rekayasa Perangkat Lunak | L4 R.76 [IF]
+SI-6A | Apriade | Karya Tulis Ilmiah | L4 R.77 [SI]
+IF-4F | Susilawati | Embedded Intelligent Systems | L4 R.78 [IF]
+IF-6PIL B | Ratna Mufidah | Big Data | L4 R.79 [IF]
+IF-6PIL C | Jajam Haerul Jaman | Big Data | L4 R.80 [IF]
+IF-2B | Purwantoro | Pemrograman Berorientasi Objek | L3 Lab Dasar 1 [IF]
+SI-4C | Bagja | MLTI | L3 Lab Dasar 2 [SI]
+SI-2B | Nina | Communication Skill | L3 Lab Lanjut 1 [SI]
+IF-4B | Yuyun Umaidah | Kecerdasan Buatan | L3 Lab Lanjut 2 [IF]
+SI-6A | Agung | Komputasi Awan | L1 R.81 [SI]
+
+SESI 2 (10.00-12.30)
+IF-2B | Asep Jamaludin | Struktur Data | L4 R.75 [IF]
+IF-4B | Intan Purnamasari | Analisis Desain Algoritma | L4 R.76 [IF]
+IF-4C | Irfan Sriyono Putro | Embedded Intelligent Systems | L4 R.77 [IF]
+IF-6A | Sofi Defiyanti | Metodologi Penelitian | L4 R.78 [IF]
+IF-6C | Betha Nurina Sari | Metodologi Penelitian | L4 R.79 [IF]
+IF-2A | Aries Suharso | Metode Numerik | L4 R.80 [IF]
+SI-4C | Ade Andri | Financial Technology | L3 Lab Dasar 1 [SI]
+IF-4E | Dadang Yusup | Pemrograman Berbasis Web | L3 Lab Dasar 2 [IF]
+SI-4B | Billi | Pemrograman Web | L3 Lab Lanjut 1 [SI]
+SI-6C | Yuyun | Sistem Cerdas | L3 Lab Lanjut 2 [SI]
+
+SESI 3 (12.30-14.10)
+IF-4B | Jajam Haerul Jaman | Rekayasa Perangkat Lunak | L4 R.75 [IF]
+IF-4D | Intan Purnamasari | Analisis Desain Algoritma | L4 R.76 [IF]
+IF-4E | E. Haodudin Nurkifli | Analisis Desain Algoritma | L4 R.77 [IF]
+IF-6C | Carudin | Software Design Pattern | L4 R.78 [IF]
+SI-4A | Ade Andri | Financial Technology | L4 R.79 [SI]
+IF-6D | Betha Nurina Sari | Metodologi Penelitian | L4 R.80 [IF]
+IF-2C | Irfan Sriyono Putro | Pemrograman Berorientasi Objek | L3 Lab Dasar 1 [IF]
+IF-4A | Adhi Rizal | Sistem Operasi | L3 Lab Dasar 2 [IF]
+IF-6A | Chaerur Rozikin | Pengolahan Citra Digital | L3 Lab Lanjut 1 [IF]
+SI-2B | Aziz | Manajemen dan Organisasi | L3 Lab Lanjut 2 [SI]
+SI-2A | Aziz | Manajemen dan Organisasi | L3 Lab Lanjut 2 [SI]
+
+SESI 4 (15.00-17.30)
+SI-2B | - | Bahasa Inggris | L4 R.75 [SI]
+SI-6A | Apriade | IIMK | L4 R.76 [SI]
+SI-4D | Nono | Keamanan Sistem Informasi | L4 R.78 [SI]
+IF-4D | Susilawati | Embedded Intelligent Systems | L4 R.79 [IF]
+IF-6PIL B | Aji Primajaya | Business Intelligence | L4 R.80 [IF]
+IF-4C | Kamal Prihandani | Pemrograman Berbasis Web | L3 Lab Dasar 1 [IF]
+SI-4B | Ade Andri | Financial Technology | L3 Lab Dasar 2 [SI]
+SI-6C | Arip | Komputasi Awan | L3 Lab Lanjut 1 [SI]
+SI-2A | - | Kewarganegaraan | L3 Lab Lanjut 2 [SI]
+
+=== RABU ===
+
+SESI 1 (07.30-09.10)
+IF-2C | Dr. Dede Jajang Suyaman | Budaya Bangsa | L4 R.75 [IF]
+IF-2A | Asep Jamaludin | Struktur Data | L4 R.76 [IF]
+SI-4D | Ade Andri | Financial Technology | L4 R.77 [SI]
+IF-6PIL | Arip Solehudin | Network Management | L4 R.78 [IF]
+IF-4C | Yuyun Umaidah | Kecerdasan Buatan | L4 R.79 [IF]
+SI-4B | Bagja | MLTI | L4 R.80 [SI]
+SI-2A | Mohamad Jajuli | Statistik | L3 Lab Dasar 1 [SI]
+SI-6PIL | Purwantoro | Web Service Application | L3 Lab Dasar 2 [SI]
+IF-4A | Kamal Prihandani | Pemrograman Berbasis Web | L3 Lab Lanjut 1 [IF]
+SI-2A | Nina | Kepemimpinan | L3 Lab Lanjut 2 [SI]
+SI-2B | - | Bahasa Indonesia | L4 R.75 [SI]
+
+SESI 2 (10.00-12.30)
+IF-6C | Rini Mayasari | Manajemen Proyek Perangkat Lunak | L4 R.76 [IF]
+IF-6B | Carudin | Software Design Pattern | L4 R.77 [IF]
+IF-4E | Jajam Haerul Jaman | Rekayasa Perangkat Lunak | L4 R.78 [IF]
+IF-6F | Aji Primajaya | Software Design Pattern | L4 R.79 [IF]
+IF-6E | Betha Nurina Sari | Metodologi Penelitian | L4 R.80 [IF]
+IF-4F | Ratna Mufidah | Kecerdasan Buatan | L3 Lab Dasar 1 [IF]
+SI-2C | Billi | Sistem Basis Data | L3 Lab Dasar 2 [SI]
+SI-6C | Apriade | IIMK | L3 Lab Lanjut 1 [SI]
+IF-6A | Aries Suharso | Machine Learning | L3 Lab Lanjut 2 [IF]
+SI-2A | Khusaeri | Communication Skill | L4 R.75 [SI]
+
+SESI 3 (12.30-15.00)
+IF-2B | Dewi Herlina Sugiarti | Bahasa Indonesia | L4 R.75 [IF]
+IF-4E | Susilawati | Embedded Intelligent Systems | L4 R.77 [IF]
+IF-6E | Aji Primajaya | Software Design Pattern | L4 R.78 [IF]
+IF-6A | Carudin | Software Design Pattern | L4 R.79 [IF]
+IF-6F | Sofi Defiyanti | Metodologi Penelitian | L4 R.80 [IF]
+IF-4B | Adhi Rizal | Sistem Operasi | L3 Lab Dasar 1 [IF]
+IF-6D | Riza Ibnu Adam | Pengolahan Citra Digital | L3 Lab Dasar 2 [IF]
+SI-2B | Billi | Sistem Basis Data | L3 Lab Lanjut 1 [SI]
+SI-6A | Yuyun | Sistem Cerdas | L3 Lab Lanjut 2 [SI]
+IF-2C | Sutri | Bahasa Indonesia | L4 R.75 [IF]
+
+SESI 4 (15.00-17.30)
+IF-4C | Intan Purnamasari | Analisis Desain Algoritma | L4 R.76 [IF]
+IF-4D | Jajam Haerul Jaman | Rekayasa Perangkat Lunak | L4 R.77 [IF]
+SI-PIL | Hanni | E-Bisnis Desain | L4 R.78 [SI]
+IF-2B | R. Bagus Irawan | Pancasila | L4 R.80 [IF]
+IF-4A | Yuyun Umaidah | Kecerdasan Buatan | L3 Lab Dasar 1 [IF]
+IF-6B | Chaerur Rozikin | Pengolahan Citra Digital | L3 Lab Dasar 2 [IF]
+IF-6E | Riza Ibnu Adam | Pengolahan Citra Digital | L3 Lab Lanjut 1 [IF]
+SI-PIL | Oman K | Developing Business App | L3 Lab Lanjut 2 [SI]
+SI-2C | - | Kewarganegaraan | L4 R.75 [SI]
+
+=== KAMIS ===
+
+SESI 1 (07.30-10.00)
+SI-2B | Nina | Kepemimpinan | L4 R.75 [SI]
+IF-2C | Tesa Nur Padilah | Aljabar Linear | L4 R.76 [IF]
+IF-4F | E. Haodudin Nurkifli | Analisis Desain Algoritma | L4 R.77 [IF]
+IF-6PIL | Didi Juardi | Wireless Sensor Network | L4 R.78 [IF]
+IF-6PIL B | Jajam Haerul Jaman | Sistem Pendukung Keputusan | L4 R.79 [IF]
+IF-4D | Mohamad Jajuli | Statistika dan Probabilitas | L4 R.80 [IF]
+IF-4C | Adhi Rizal | Sistem Operasi | L3 Lab Dasar 1 [IF]
+SI-2A | Billi | Sistem Basis Data | L3 Lab Dasar 2 [SI]
+SI-4D | Azhari | Jaringan | L3 Lab Lanjut 1 [SI]
+IF-6PIL A | Purwantoro | Sistem Pendukung Keputusan | L3 Lab Lanjut 2 [IF]
+IF-2A | Iqbal Maulana | Statistika dan Probabilitas | L4 R.75 [IF]
+
+SESI 2 (10.00-12.30)
+IF-2B | Tesa Nur Padilah | Aljabar Linear | L4 R.76 [IF]
+IF-4C | Mohamad Jajuli | Statistika dan Probabilitas | L4 R.77 [IF]
+IF-6PIL C | Aji Primajaya | Business Intelligence | L4 R.78 [IF]
+IF-4A | E. Haodudin Nurkifli | Analisis Desain Algoritma | L4 R.79 [IF]
+SI-6C | Apriade | Karya Tulis Ilmiah | L4 R.80 [SI]
+IF-4E | Ratna Mufidah | Kecerdasan Buatan | L3 Lab Dasar 1 [IF]
+SI-4A | Billi | Pemrograman Web | L3 Lab Dasar 2 [SI]
+IF-4D | Dadang Yusup | Pemrograman Berbasis Web | L3 Lab Lanjut 1 [IF]
+SI-4C | Azhari | Jaringan | L3 Lab Lanjut 2 [SI]
+SI-2A | - | Bahasa Indonesia | L4 R.75 [SI]
+
+SESI 3 (12.30-15.00)
+IF-2C | Riza Ibnu Adam | Metode Numerik | L4 R.76 [IF]
+IF-4F | Intan Purnamasari | Rekayasa Perangkat Lunak | L4 R.77 [IF]
+IF-6D | Didi Juardi | Manajemen Proyek Perangkat Lunak | L4 R.78 [IF]
+IF-6B | Betha Nurina Sari | Metodologi Penelitian | L4 R.79 [IF]
+SI-2C | Asep Jamaludin | Statistik | L4 R.80 [SI]
+SI-4C | Aziz | Supply Chain Management | L3 Lab Dasar 1 [SI]
+SI-4B | Khusaeri | Supply Chain Management | L3 Lab Dasar 2 [SI]
+SI-6B | Kamal Prihandani | Sistem Cerdas | L3 Lab Lanjut 1 [SI]
+IF-6F | Aries Suharso | Pengolahan Citra Digital | L3 Lab Lanjut 2 [IF]
+IF-4E | Iqbal Maulana | Statistika dan Probabilitas | L4 R.75 [IF]
+
+SESI 4 (15.00-17.30)
+IF-6D | Carudin | Software Design Pattern | L4 R.76 [IF]
+IF-6PIL A | Garno | Perancangan User Experience | L4 R.77 [IF]
+SI-4D | Siska | Bisnis Intelijen | L4 R.78 [SI]
+SI-4B | Nono | Keamanan Sistem Informasi | L4 R.79 [SI]
+SI-PIL | Didi | Sistem Pendukung Keputusan | L4 R.80 [SI]
+IF-4D | Ratna Mufidah | Kecerdasan Buatan | L3 Lab Dasar 1 [IF]
+SI-4A | Azhari | Jaringan | L3 Lab Dasar 2 [SI]
+SI-6B | Agung | Komputasi Awan | L3 Lab Lanjut 1 [SI]
+IF-6F | Sofi Defiyanti | Machine Learning | L3 Lab Lanjut 2 [IF]
+IF-2A | R. Bagus Irawan | Pancasila | L4 R.75 [IF]
+
+=== JUMAT ===
+
+SESI 1 (07.00-09.30)
+IF-4A | Mohamad Jajuli | Statistika dan Probabilitas | L4 R.75 [IF]
+SI-4A | Aziz | MLTI | L4 R.76 [SI]
+IF-6F | Arip Solehudin | Manajemen Proyek Perangkat Lunak | L4 R.77 [IF]
+SI-2C | - | Bahasa Indonesia | L4 R.78 [SI]
+IF-4F | Tesa Nur Padilah | Statistika dan Probabilitas | L4 R.80 [IF]
+SI-6A | Agung | Komputasi Awan | L3 Lab Dasar 1 [SI]
+SI-PIL | Nina S | Computer Audit / IS Audit | L3 Lab Dasar 2 [SI]
+SI-2B | - | Kewarganegaraan | L4 R.78 [SI]
+SI-2C | Aziz | Manajemen dan Organisasi | L4 R.79 [SI]
+
+SESI 2 (09.30-12.00)
+IF-4B | Mohamad Jajuli | Statistika dan Probabilitas | L4 R.75 [IF]
+SI-PIL | Apriade | Digital and New Media | L4 R.76 [SI]
+IF-6E | Didi Juardi | Manajemen Proyek Perangkat Lunak | L4 R.77 [IF]
+SI-6C | Hannie | Technopreneur | L4 R.80 [SI]
+SI-4C | Billi | Pemrograman Web | L3 Lab Dasar 2 [SI]
+SI-2A | Nina | Kepemimpinan | L4 R.78 [SI]
+
+SESI 3 (13.00-15.30)
+SI-2B | Iqbal Maulana | Statistik | L4 R.76 [SI]
+IF-6PIL B | Garno | Perancangan User Experience | L4 R.77 [IF]
+SI-4A | Siska | Bisnis Intelijen | L4 R.78 [SI]
+IF-2B | Riza Ibnu Adam | Metode Numerik | L4 R.79 [IF]
+SI-6B | Hannie | Technopreneur | L4 R.80 [SI]
+SI-PIL | Yuyun | Teknik Data Mining | L3 Lab Dasar 1 [SI]
+SI-4D | Billi | Pemrograman Web | L3 Lab Dasar 2 [SI]
+
+SESI 4 (15.30-18.00)
+IF-6PIL C | Garno | Perancangan User Experience | L4 R.77 [IF]
+SI-4A | Nono | Keamanan Sistem Informasi | L4 R.78 [SI]
+SI-6A | Hannie | Technopreneur | L3 Lab Lanjut 1 [SI]

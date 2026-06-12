@@ -1,0 +1,252 @@
+PANDUAN TUGAS AKHIR FAKULTAS ILMU KOMPUTER UNSIKA 2023
+FAKULTAS ILMU KOMPUTER - UNIVERSITAS SINGAPERBANGSA KARAWANG
+
+================================================================================
+METADATA DOKUMEN
+================================================================================
+Judul Dokumen: Buku Panduan Penulisan Tugas Akhir Fakultas Ilmu Komputer
+Institusi: Fakultas Ilmu Komputer, Universitas Singaperbangsa Karawang (UNSIKA)
+Tahun Penerbitan/Penyempurnaan: November 2023
+Situs Web Resmi: www.cs.unsika.ac.id
+Email Institusi: fasilkom@unsika.ac.id
+Tujuan Dokumen: Memberikan pedoman penyusunan tugas akhir, keseragaman format, norma akademis, syarat administratif, serta instruksi publikasi ilmiah bagi mahasiswa dan dosen pembimbing di lingkungan Fasilkom UNSIKA.
+
+================================================================================
+BAB 1: PENDAHULUAN & KARAKTERISTIK TUGAS AKHIR
+================================================================================
+1.1 PENGERTIAN TUGAS AKHIR (SKRIPSI)
+Tugas Akhir mahasiswa Fakultas Ilmu Komputer UNSIKA adalah suatu karya tulis ilmiah yang menjadi salah satu persyaratan utama untuk memperoleh gelar Sarjana Komputer (S.Kom.). Karya ilmiah ini harus diselesaikan secara mandiri maupun melalui kelompok riset, berfokus pada pemecahan masalah praktik manajerial nyata (penelitian rekayasa/aplikatif/pengembangan metode) ataupun berupa karya empiris (non-rekayasa berupa analisis dan rekomendasi).
+
+1.2 KARAKTERISTIK UTAMA TUGAS AKHIR
+1. Dihasilkan melalui penerapan Metode Ilmiah yang valid.
+2. Mempunyai nilai manfaat yang tinggi bagi pengembangan teori dan praktik bidang ilmu komputer.
+3. Bersifat analitik secara mendalam (bukan sekadar deskriptif) serta dirujuk dengan teori relevan dan rekam jejak penelitian terdahulu yang sah.
+4. Menjelaskan fenomena secara mendalam mencakup aspek: apa yang terjadi (what), mengapa permasalahan terjadi (why), dampak yang timbul (impact), serta langkah antisipasinya (how).
+5. Kurikulum pendukung: Mahasiswa disiapkan melalui mata kuliah prasyarat wajib berupa Metodologi Penelitian dan Kajian Jurnal Informatika.
+
+1.3 PERSYARATAN AKADEMIK PENYUSUNAN TUGAS AKHIR
+Mahasiswa yang berhak menyusun tugas akhir wajib memenuhi kriteria berikut:
+1. Telah menempuh minimal 120 SKS kuliah.
+2. Memiliki Nilai Indeks Prestasi Kumulatif (IPK) minimal >= 2,00 (berdasarkan Standar Nasional Pendidikan Tinggi Permenristekdikti No. 44 Tahun 2015).
+3. Telah menempuh dan LULUS mata kuliah pendukung utama:
+   - Metodologi Penelitian: Mulai berlaku murni pada Tahun Akademik 2024/2025, serta BUKAN merupakan hasil konversi dari program kegiatan apapun (harus ditempuh reguler).
+   - Telah menyelesaikan kegiatan magang industri dan menyerahkan Laporan Magang resmi.
+
+1.4 TOPIK TUGAS AKHIR BERDASARKAN KELOMPOK RISET (ROADMAP)
+Topik diselaraskan dengan minat mahasiswa dan dikelompokkan ke dalam rumpun riset resmi Fasilkom UNSIKA:
+A. Kelompok Riset Ilmu Komputer / Informatika:
+   1) Data Science (Sains Data)
+   2) Software Engineering (Rekayasa Perangkat Lunak)
+   3) Computer Network and Security (Jaringan dan Keamanan Komputer)
+B. Kelompok Riset Sistem Informasi:
+   1) Information System Application (Aplikasi Sistem Informasi)
+   2) Business Intelligence (Kecerdasan Bisnis)
+   3) Management Information System (Sistem Informasi Manajemen)
+
+================================================================================
+BAB 2: TAHAPAN UTAMA & SKEMA PENYELESAIAN TUGAS AKHIR
+================================================================================
+Proses penyelesaian tugas akhir dibagi menjadi 3 tahapan ujian/sidang akademis bertahap:
+
+1. SEMINAR PROPOSAL (Bobot Nilai: 40% dari Nilai Akhir Skripsi)
+   - Deskripsi: Ujian untuk menguji kelayakan dari rencana usulan penelitian yang diajukan mahasiswa setelah mendapat persetujuan dosen pembimbing proposal.
+   - Komposisi Penguji: Terdiri dari 2 (dua) orang dosen penguji (Penguji I dan Penguji II).
+   - Hasil Kelulusan: Menentukan kelayakan topik untuk dilanjutkan ke tahap penelitian inti.
+
+2. SEMINAR HASIL PENELITIAN / KOLOKIUM (Bobot Nilai: 60% dari Nilai Akhir Skripsi)
+   - Deskripsi: Sidang tertutup untuk menguji kemampuan akademik, metodologi, serta hasil produk/aplikasi/analisis akhir penelitian yang telah diselesaikan mahasiswa.
+   - Komposisi Penguji: Terdiri dari 4 (empat) orang di dewan sidang, yaitu 1 (satu) orang Ketua Sidang (Dosen Pembimbing Utama) dan 3 (tiga) orang Anggota Penguji.
+   - Ketentuan Waktu: Berlangsung total kurang lebih 45 menit, dengan distribusi: 10 menit presentasi mahasiswa, 25 menit pendalaman dan tanya jawab komprehensif, serta 10 menit resume dan penutup dewan sidang.
+
+3. YUDISIUM
+   - Deskripsi: Proses penetapan nilai kelulusan akhir resmi mahasiswa dari seluruh rangkaian proses akademik jenjang Sarjana (S1). Dilaksanakan setelah revisi pasca-kolokium selesai di-hardcover dan disahkan oleh Senat Fakultas serta ditetapkan melalui Keputusan Dekan Fasilkom UNSIKA.
+
+--------------------------------------------------------------------------------
+STANDAR MATRIKS KONVERSI NILAI ANGKA KE HURUF MUTU SKRIPSI
+--------------------------------------------------------------------------------
+Kelulusan Tugas Akhir didasarkan pada akumulasi nilai angka dengan ketentuan konversi berikut:
+- Nilai Angka 85 - 100   = Huruf Mutu A  (Status: LULUS)
+- Nilai Angka 80 - 84.9  = Huruf Mutu A- (Status: LULUS)
+- Nilai Angka 75 - 79.9  = Huruf Mutu B+ (Status: LULUS)
+- Nilai Angka 70 - 74.9  = Huruf Mutu B  (Status: LULUS)
+- Nilai Angka 65 - 69.9  = Huruf Mutu B- (Status: LULUS)
+- Nilai Angka 60 - 64.9  = Huruf Mutu C+ (Status: TIDAK LULUS / GAGAL)
+- Nilai Angka 50 - 59.9  = Huruf Mutu C  (Status: TIDAK LULUS / GAGAL)
+- Nilai Angka 40 - 49.9  = Huruf Mutu D  (Status: TIDAK LULUS / GAGAL)
+- Nilai Angka < 40       = Huruf Mutu E  (Status: TIDAK LULUS / GAGAL)
+
+Aturan Mengulang Sidang:
+Mahasiswa yang mendapatkan nilai akhir di bawah 65 (C+, C, D, E) dinyatakan TIDAK LULUS. Diberikan kesempatan melakukan ujian ulang maksimal sebanyak 2 (dua) kali dari jadwal ujian pertama. Jika pada ujian ketiga tetap tidak lulus, mahasiswa wajib mengganti topik/judul tugas akhir dan mengajukan ulang usulan penelitian baru dari awal kepada Koordinator Program Studi.
+
+================================================================================
+BAB 3: TATA KERJA OPERASIONAL DAN ADMINISTRASI (PROPOSAL HINGGA YUDISIUM)
+================================================================================
+--------------------------------------------------------------------------------
+FASE A: PENGAJUAN TOPIK DAN SEMINAR PROPOSAL
+--------------------------------------------------------------------------------
+1. Pengajuan Topik: Mahasiswa mengambil KRS Tugas Akhir -> Mengajukan 3 pilihan topik penelitian berdasarkan Roadmap Fakultas melalui Formulir Pengajuan (Lampiran 2).
+2. Plotting Pembimbing Proposal: Tim Tugas Akhir bersama Koordinator Prodi mengadakan rapat plotting selambat-lambatnya 3 hari kerja setelah penutupan pendaftaran. Mahasiswa mendapatkan 1 orang Dosen Pembimbing Proposal dengan Surat Tugas resmi dari Dekan yang berlaku selama 1 (satu) tahun akademik. Jika lewat 1 tahun skripsi belum selesai, mahasiswa wajib mengajukan ulang topik.
+3. Bimbingan Proposal: Mahasiswa mengambil Surat Tugas di TU, wajib berkonsultasi rutin minimal 3 (tiga) kali bimbingan teratur dibuktikan dengan Form Bimbingan Proposal ber-TTD dosen.
+4. Pendaftaran Seminar Proposal: Mengisi berkas persetujuan pendaftaran dari pembimbing, melampirkan bukti logbook bimbingan, menyerahkan 2 eksemplar fotokopi draf proposal di dalam Map Warna Merah ke TU Fasilkom. Jadwal ujian dan nama Penguji I & II diumumkan prodi maksimal 1 hari sebelum sidang.
+5. Sanksi & Ketentuan Sidang Proposal: 
+   - Mahasiswa wajib hadir 15 menit sebelum sidang memakai baju putih, jas/blazer hitam, celana/rok hitam, dasi (pria), kerudung hitam (wanita), serta bersepatu.
+   - Wajib membawa laptop dan menguji fungsionalitas hardware/software sebelum sidang dimulai. Ketidaksiapan teknis (laptop error, tidak bawa charger/alat) mengakibatkan mahasiswa dinyatakan GUGUR langsung dan mendapat nilai 0 (nol).
+   - Ketidakhadiran karena alasan kelalaian (keluar kota, tidak tahu jadwal) diberi sanksi pelewatan/skorsing satu kali periode jadwal ujian.
+   - Komponen Nilai Proposal (Bobot total 40%): Presentasi/Pemaparan (30%), Isi Proposal/Materi (40%), dan Tanya Jawab/Diskusi (30%).
+6. Revisi Proposal: Batas waktu maksimal penyelesaian revisi dan pengumpulan dokumen pasca-sidang adalah 14 hari kerja (dua minggu). Jika pengumpulan terlambat melebihi 1 tahun akademik, dikenai sanksi wajib Seminar Proposal Ulang.
+7. Perubahan Topik: Topik dapat diubah total jika penguji mendeteksi adanya unsur plagiarisme (mahasiswa wajib mengulang seminar proposal dari awal). Perubahan judul minor/topik di tengah jalan diperbolehkan jika disetujui secara tertulis oleh Dosen Pembimbing I dan II selama masa surat tugas berlaku.
+
+--------------------------------------------------------------------------------
+FASE B: PENYUSUNAN TUGAS AKHIR DAN SIDANG KOLOKIUM
+--------------------------------------------------------------------------------
+1. Persyaratan Administratif Memulai Skripsi: Mahasiswa wajib menyerahkan Lembar Revisi Proposal ber-TTD pembimbing & penguji, serta menyerahkan 2 rangkap dokumen proposal resmi yang telah disahkan ke prodi.
+2. Plotting Pembimbing Skripsi: Koordinator Prodi menetapkan 2 (dua) orang Dosen Tetap sebagai Pembimbing I dan Pembimbing II yang memiliki tanggung jawab setara dalam mengarahkan mahasiswa. Dosen pembimbing diutamakan memiliki jabatan fungsional (jafung) yang linier dengan rumpun ilmu prodi. Surat Tugas bimbingan berlaku maksimal 1 tahun. Jika belum selesai, wajib mengajukan ulang perpanjangan bimbingan atas persetujuan Koprodi (Lampiran 3).
+3. Pelaksanaan Bimbingan: Mahasiswa melakukan bimbingan rutin terjadwal secara sungguh-sungguh dibuktikan dengan Buku Kendali Bimbingan fisik/digital untuk Pembimbing I dan Pembimbing II. Jumlah minimal bimbingan adalah masing-masing minimal 8 (delapan) kali pertemuan bimbingan untuk Pembimbing I dan Pembimbing II sebelum diperbolehkan mendaftar sidang.
+4. Persyaratan Akademik & Administrasi Sidang Kolokium:
+   - Telah lulus seluruh mata kuliah wajib kurikulum (total 138 SKS).
+   - Memiliki nilai mutu D maksimal pada 2 (dua) mata kuliah, serta TIDAK BOLEH ada nilai huruf mutu E sama sekali.
+   - Telah melunasi seluruh biaya administrasi perkuliahan kampus (dibuktikan bukti lunas keuangan).
+   - Menyerahkan sertifikat kelulusan uji TOEFL resmi dari lembaga bahasa universitas atau lembaga kredibel (LIA, BBC, EF, dll.).
+   - Menyerahkan sertifikat bukti keikutsertaan kegiatan: PKKMB (Pengenalan Kehidupan Kampus), LKMM (Latihan Keterampilan Manajemen Mahasiswa), minimal 2 sertifikat kursus kompetensi, serta minimal 1 sertifikat seminar nasional bidang TI.
+   - Menyerahkan Surat Permohonan Seminar Kolokium yang disetujui Pembimbing I & II.
+   - Menyerahkan draf laporan Tugas Akhir sebanyak 3 (tiga) rangkap.
+   - Melampirkan bukti kelulusan uji kemiripan data / Plagiarism Checker (Turnitin/sejenis) atas rekomendasi dosen pembimbing dengan batas ambang batas maksimal plagiarisme (Similarity Index) sebesar 35% untuk abstrak/dokumen, atau spesifik maksimal 30% per bab (Bab 1 s.d Bab 5).
+5. Ketentuan Pelaksanaan Ujian Kolokium:
+   - Sidang bersifat tertutup, diuji oleh 1 Ketua Sidang dan 3 Anggota Penguji.
+   - Mahasiswa wajib mendemokan produk/simulasi aplikasi program secara valid. Kegagalan teknis pada software/hardware saat demo mengakibatkan mahasiswa dinyatakan GUGUR dan bernilai 0 (nol).
+   - Pakaian wajib: Kemeja putih, celana/rok hitam, dasi (pria), jas/blazer almamater, dan bersepatu formal. Hadir minimal 15 menit sebelum pembukaan dimulai.
+   - Komponen Nilai Kolokium: Presentasi (25%), Isi Dokumen Tugas Akhir (40%), Diskusi/Tanya Jawab (25%), dan Sikap/Etika (10%). Penilaian dihitung dari gabungan bobot Nilai Dosen Pembimbing (60%) dan Nilai Dosen Penguji (40%). Validasi akhir dilakukan pada rapat Pleno Besar sebelum yudisium.
+6. Revisi Pasca-Kolokium: Mahasiswa wajib menyelesaikan revisi laporan skripsi di bawah arahan Pembimbing I dan II maksimal dalam waktu 1 bulan sejak hari sidang dilaksanakan. Keterlambatan penyelesaian revisi dikenai sanksi administratif berupa penurunan grade nilai akhir tugas akhir. Laporan akhir dijilid menggunakan jilid keras (Hardcover).
+7. Administrasi Yudisium: Menyerahkan berkas revisi ber-TTD lengkap, mengumpulkan 3 rangkap buku Tugas Akhir hardcover, menyerahkan Surat Permohonan Yudisium, melakukan validasi nilai keseluruhan mata kuliah, serta wajib mengunggah bukti kirim (Submit/LoA) Artikel Ilmiah pada jurnal ilmiah terakreditasi yang relevan sesuai bidang ilmu.
+
+================================================================================
+BAB 4: SISTEMATIKA & STRUKTUR PENULISAN (PROPOSAL DAN SKRIPSI)
+================================================================================
+A. SISTEMATIKA PROPOSAL SKRIPSI
+1. Bagian Awal: Halaman Muka/Kulit softcover (Warna abu-abu bendera fakultas, judul spesifik maksimal 14 kata), Halaman Judul (Kertas HVS), Halaman Lembar Pengesahan (Lampiran 6), Kata Pengantar (maksimal 2 halaman), Daftar Isi, Daftar Gambar, Daftar Tabel.
+2. Bagian Utama:
+   - BAB 1 PENDAHULUAN: Latar belakang, rumusan masalah, batasan masalah, tujuan, manfaat (teoritis & praktis), metodologi penelitian, sistematika penulisan, dan tabel timeline jadwal penelitian.
+   - BAB 2 LANDASAN TEORI: Teori-teori ilmiah penunjang, review jurnal penelitian terdahulu (minimal menyajikan 5 referensi jurnal penelitian dalam bentuk tabel/narasi perbandingan).
+   - BAB 3 OBJEK DAN METODOLOGI PENELITIAN: Objek penelitian, bagan alur metodologi penelitian yang diadopsi, dan rancangan pengujian penelitian.
+3. Bagian Akhir: Daftar Pustaka (Hanya memuat pustaka yang benar-benar dirujuk, mengutamakan jurnal mutakhir maksimal terbit 5 tahun terakhir).
+
+B. SISTEMATIKA DOKUMEN TUGAS AKHIR (SKRIPSI PENUH)
+1. Bagian Awal:
+   - Halaman Muka Kulit Hardcover (Kertas linen abu-abu, cetak tinta emas, logo UNSIKA 4x4 cm simetris).
+   - Halaman Judul (Kertas HVS putih).
+   - Halaman Lembar Pengesahan Pembimbing (TTD Pembimbing I, II, Dekan - kertas hammer/pack plano 100gr).
+   - Halaman Lembar Pengesahan Penguji (TTD Penguji I, II, Dekan).
+   - Halaman Pernyataan Orisinalitas (Bermaterai Rp 6.000 / sesuai regulasi berlaku).
+   - Halaman Pernyataan Persetujuan Publikasi Karya Ilmiah untuk Kepentingan Akademis (Hak Bebas Royalti Noneksklusif kepada UNSIKA).
+   - Lembar Persembahan / Motto / Kata Mutiara Motivasi.
+   - Halaman Abstrak Bahasa Indonesia & Halaman Abstract Bahasa Inggris: Ditulis dalam 1 paragraf tunggal, maksimal 250 kata, font 10pt, rata kanan-kiri (Justify), spasi tunggal (1 spasi). Memuat masalah, tujuan, prosedur, metode, hasil, kesimpulan, serta 3 s.d 5 kata kunci (keywords) yang disusun alfabetis.
+   - Kata Pengantar (maksimal 3 halaman), Daftar Isi (format Table of Contents), Daftar Gambar, Daftar Tabel, Daftar Lampiran.
+2. Bagian Utama:
+   - BAB 1 PENDAHULUAN: Latar belakang, rumusan masalah, batasan masalah, tujuan, manfaat, metodologi, dan sistematika penulisan.
+   - BAB 2 LANDASAN TEORI: Konsep teori dasar, review jurnal penelitian terdahulu (minimal 5 referensi mutakhir 5 tahun terakhir).
+   - BAB 3 OBJEK DAN METODOLOGI PENELITIAN: Deskripsi objek, tahapan alur metodologi, perancangan sistem/rekayasa, atau pemodelan analisis.
+   - BAB 4 HASIL DAN PEMBAHASAN: Hasil pengujian sistem, kelebihan, kelemahan, argumentasi ilmiah logis secara sistematis (didukung simulasi, tabel, gambar, grafik tren pola data).
+   - BAB 5 PENUTUP: Kesimpulan objektif (menjawab tujuan bab 1 secara ringkas) dan Saran tindakan konkret (ditulis dalam bentuk poin-poin).
+3. Bagian Akhir:
+   - Halaman Daftar Pustaka, Halaman Biodata Penulis (Dilengkapi pasfoto berwarna memakai pakaian jas/blazer resmi), Halaman Lampiran (didahului 1 lembar pembatas bertuliskan "LAMPIRAN" di tengah halaman dengan font 48pt bold tanpa nomor halaman). Isi lampiran: source code, data mentah kuesioner, perizinan, dan scan buku bimbingan.
+
+================================================================================
+BAB 5: ATURAN TEKNIS TATA CARA PENULISAN DAN FORMAT LAYOUT
+================================================================================
+1. Spesifikasi Bahan Kertas: Kertas HVS putih ukuran resmi A4 (210mm x 297mm). Bobot berat kertas: 80 gr/m2 untuk dokumen Skripsi Akhir, dan 70 gr/m2 untuk draf Proposal. Kertas pembatas bab menggunakan kertas doorslag berlogo UNSIKA.
+2. Pengaturan Batas Tepi Margin Halaman (Page Setup):
+   - Batas Kiri (Left Margin)   = 4 cm (untuk ruang penjilidan hardcover)
+   - Batas Atas (Top Margin)   = 3 cm
+   - Batas Kanan (Right Margin) = 3 cm
+   - Batas Bawah (Bottom Margin) = 3 cm
+3. Aturan Font & Spasi Dokumen:
+   - Jenis Font standar: Times New Roman.
+   - Narasi / teks utama: Ukuran 12pt dengan jarak antar baris sebesar 1,5 spasi. Teks ditulis dengan format rata kanan-kiri (Justify).
+   - Kutipan blok panjang, judul tabel/gambar, isi diagram/tabel, dan abstrak: Ukuran 10pt dengan jarak antar baris sebesar 1 spasi (single).
+   - Paragraf baru: Huruf pertama alinea baru dimulai rapat kiri (tanpa tab/indentasi khusus), dengan ketentuan baris pertama paragraf baru berjarak 3 spasi dari baris akhir paragraf sebelumnya.
+   - Penulisan judul bab/sub-bab tidak boleh diletakkan sebagai yatim/piatu (orphaned) di dasar halaman jika sisa baris halaman kurang dari 3 baris teks.
+4. Format Penulisan Judul Bab dan Sub-Bab:
+   - Judul Utama BAB: Huruf Kapital Semua, Font 14pt, Bold, diletakkan simetris di tengah halaman (Center) tanpa tanda titik. Jika lebih dari 1 baris, ditulis dengan pola piramida terbalik (1,5 spasi).
+   - Judul Sekunder (Sub-Bab): Ditulis rapat tepi kiri, setiap awal kata huruf kapital (kecuali kata depan/sambung), Font 13pt, Bold. Contoh: 1.1 Latar Belakang.
+   - Judul Tersier (Sub-Sub Bab): Aturan sama dengan sub-bab dengan penomoran maksimal 3 s.d 4 digit, wajib ditulis dengan Huruf Miring (Italic). Contoh: 4.1.1 Metode Clustering atau 4.1.1.1 Metode K-Means.
+5. Aturan Penomoran Halaman:
+   - Bagian Awal (Abstrak s.d Daftar Lampiran): Menggunakan Angka Romawi Kecil (i, ii, iii...), posisi diletakkan di Bawah-Tengah (Bottom Center).
+   - Bagian Utama s.d Bagian Akhir (Bab 1 s.d Lampiran): Menggunakan Angka Arab (1, 2, 3...). Posisi halaman diletakkan di Kanan Atas (Top Right). Pengecualian khusus untuk halaman yang memuat BAB BARU, nomor halaman wajib diletakkan di bagian Bawah-Tengah (Bottom Center).
+6. Pengkodean Struktur Sub-Bab/Pasal: Menggunakan kombinasi tata urut: Angka Arab untuk Bab (BAB 1), Angka Arab kombinasi bab untuk Sub-bab (1.1), Angka Arab miring untuk Sub-sub bab (4.1.1), Angka Arab tunggal dengan titik untuk Pasal (1.), Huruf kecil dengan titik untuk Subpasal (a.), Angka Arab dalam kurung tutup untuk Ayat (1) ), dan Huruf kecil dalam kurung tutup untuk Subayat (a) ).
+7. Formulasi Matematika / Persamaan: Ditulis simetris di tengah halaman (Center), menggunakan ukuran font 12pt. Penomoran rumus diletakkan rata kanan (Right Alignment) di dalam tanda kurung, memuat nomor bab diikuti nomor urut persamaan tersebut. Contoh rumus ke-4 di Bab 2 dituliskan nomor kodenya: (2.4).
+8. Aturan Penyajian Tabel dan Gambar:
+   - Peta, grafik, foto, bagan, diagram dikategorikan sebagai "Gambar".
+   - Judul Gambar diletakkan di bagian BAWAH-TENGAH gambar (Center), Font 12pt. Kata "Gambar" dan angka arab nomor urutnya wajib dicetak tebal (Bold). Contoh: Gambar 2.1 Topologi Jaringan Komputer. Jika mengutip wajib mencantumkan sumber di bawah judul gambar (font 10pt).
+   - Judul Tabel diletakkan di bagian ATAS-TENGAH tabel (Center), Font 12pt. Kata "Tabel" dan nomor urutnya dicetak tebal (Bold). Contoh: Tabel 3.1 Hardware Jaringan. Di bawah tabel wajib dituliskan Sumber Data (font 10pt).
+   - Jarak antar baris di dalam tabel adalah 1 spasi (single) dengan font ukuran 10pt. Garis batas tabel hanya diperbolehkan menggunakan 3 garis horizontal utama (2 garis mengapit kepala tabel, 1 garis di kaki tabel). Garis pembatas vertikal TIDAK BOLEH digunakan.
+   - Tabel tidak boleh terpotong di dua halaman yang berbeda. Jika terpaksa karena tabel sangat panjang, kepala tabel wajib ditulis ulang secara identik di halaman berikutnya dengan menyertakan keterangan kata "(Lanjutan)" di samping nomor tabel.
+9. Aturan Kebahasaan & Penulisan Angka:
+   - Menggunakan Bahasa Indonesia baku (sesuai EYD/KBBI) dengan struktur kalimat lengkap (S-P-O-K). Istilah asing wajib ditulis miring (Italics).
+   - Singkatan kapital organisasi/dokumen tidak menggunakan titik (Contoh: SMA, PT, CV, EYD). Singkatan gelar akademis/pangkat wajib menggunakan tanda titik (Contoh: S.Kom., M.Kom., S.T., M.Si.).
+   - Bilangan yang dapat dinyatakan dalam satu atau dua kata wajib ditulis menggunakan huruf (Contoh: digandakan tiga kali). Bilangan di awal kalimat dilarang ditulis dengan angka arab, wajib dieja penuh (Contoh: "Lima belas jenis barang", bukan "15 jenis barang").
+   - Penulisan bilangan desimal wajib menggunakan tanda baca KOMA, bukan titik (Contoh: 25.754,50). Satuan resmi internasional ditulis langsung tanpa diakhiri titik (Contoh: m, g, kg).
+
+================================================================================
+BAB 6: FORMAT ACUAN SITASI (KUTIPAN) DAN DAFTAR PUSTAKA (APA STYLE)
+================================================================================
+Penulisan sitasi teks dan susunan daftar pustaka di Fasilkom UNSIKA WAJIB mengikuti format standardisasi APA (American Psychological Association) Edisi Ke-6. Baris kedua dan seterusnya pada tiap butir pustaka diketik menjorok ke dalam (Hanging Indent) sejauh 1 cm dengan jarak antar baris 1 spasi.
+
+1. KETENTUAN KUTIPAN LANGSUNG (Sama persis dengan sumber asli)
+   - Wajib menyertakan nomor halaman sumber asal menggunakan notasi p. atau pp.. Jika tidak ada halaman, gunakan bab (chap.) atau paragraf ke berapa. Contoh: (Azaria, 2014, p. 15).
+   - Kutipan pendek (<= 40 kata / < 3 baris): Diintegrasikan langsung dalam teks, diapit tanda petik dua ("..."), menggunakan spasi 1,5 dan font 12pt. Contoh: Menurut Jones (1998), "students often had difficulty using APA style" (p. 199).
+   - Kutipan panjang (> 40 kata / > 3 baris): Ditulis dalam blok paragraf tersendiri yang terpisah, menjorok masuk sebesar 5 spasi dari batas margin kiri, ditulis menggunakan Huruf Miring (Italic), ukuran font 10pt, dan jarak spasi tunggal (1 spasi).
+
+2. KETENTUAN KUTIPAN TIDAK LANGSUNG (Parafrase menggunakan bahasa sendiri)
+   - Hanya menuliskan nama belakang pengarang dan tahun terbit, tanpa nomor halaman.
+   - Pola Penulisan Berdasarkan Jumlah Pengarang:
+     - 2 Pengarang: Ditulis semua nama di setiap sitasi menggunakan tanda "&". Contoh di dalam kalimat: Penelitian Wegener & Petty (1994) menyatakan... Di akhir kalimat: (Wegener & Petty, 1994).
+     - 3 s.d 5 Pengarang: Pada sitasi pertama kali muncul, semua nama wajib ditulis lengkap. Contoh: Penelitian Kernis, Cornell, Sun, Berry, & Harlow (1993)... Pada sitasi berikutnya untuk karya yang sama, hanya ditulis nama pengarang pertama diikuti istilah "et al.". Contoh: Penelitian Kernis et al. (1993) atau di akhir kalimat (Kernis et al., 1993).
+     - >= 6 Pengarang: Sejak sitasi pertama muncul langsung ditulis nama pengarang pertama diikuti "et al.". Contoh: (Harris et al., 1993).
+     - Pengarang Anonim / Lembaga: Tulis nama lembaga secara lengkap pada sitasi pertama, diikuti singkatan dalam kurung siku jika ada. Contoh: (Mothers Against Drunk Driving [MADD], 2000). Sitasi selanjutnya cukup singkatannya: (MADD, 2000). Jika anonim tanpa nama penulis, gunakan judul buku/laporan (cetak miring) atau judul artikel/halaman web dalam tanda petik dua. Contoh: ("Using APA", 2001).
+     - Dua karya dalam tanda kurung yang sama dipisahkan tanda titik koma (;) secara alfabetis. Contoh: (Berndt, 2002; Harlow, 1983).
+     - Pengarang dengan nama akhir sama wajib menyertakan inisial nama depan. Contoh: (E. Johnson, 2001; L. Johnson, 1998).
+     - Karya dengan pengarang dan tahun yang sama dibedakan dengan huruf kecil a, b, c di samping tahun. Contoh: Berndt (1981a). Jika tahun tidak diketahui ditulis n.d. (no date). Contoh: ("Tutoring and APA", n.d.).
+
+3. KETENTUAN STRUKTUR TEKNIS DAFTAR PUSTAKA
+   - Disusun alfabetis berdasarkan abjad nama belakang penulis utama, tanpa menggunakan nomor urut (1, 2, 3 dst). Nama pengarang diurutkan: Nama terakhir, inisial nama depan. Contoh pengarang banyak (2 s.d 7 orang) wajib ditulis semua nama dipisahkan koma dan diakhiri tanda "&". Untuk >= 8 pengarang, tulis 6 nama pertama, berikan tanda titik-titik tiga (...), lalu tulis nama pengarang paling terakhir.
+   - Contoh Format Penulisan Berbagai Jenis Pustaka:
+     - Artikel Jurnal Ilmiah (Nama jurnal dan nomor volume wajib dicetak miring):
+       Keller, T. E., Cusick, G. R., & Courtney, M. E. (2007). Approaching the transition to adulthood: Distinctive profiles of adolescents aging out of the child welfare system. *Social Services Review*, *81*, 453-484.
+     - Jurnal Online dengan DOI:
+       Senior, B., & Swailes, S. (2007). Inside management teams: Developing a teamwork survey instrument. *British Journal of Management*, *18*, 138-153. doi: 10.1111/j.1467-8551.2006.00507.x
+     - Jurnal Online Tanpa DOI (Wajib mencantumkan URL home page jurnal):
+       Koo, D. J., Chitwoode, D. D., & Sanchez, J. (2008). Violent victimization and the routine activities/lifestyle of active drug users. *Journal of Drug Issues*, *38*, 1105-1137. Retrieved from http://www2.criminology.fsu.edu/~jdi/
+     - Buku Teks Fisik (Judul buku dicetak miring):
+       Bernstein, T. M. (1965). *The careful writer: A modern guide to English usage*. New York: Athenaeum.
+     - Karya Skripsi/Tesis/Disertasi Terbit Resmi:
+       Young, R. F. (2007). *Crossing boundaries in urban ecology*. (Doctoral dissertation). Retrieved from Proquest Dissertation & Theses database. (UMI No. 327681).
+     - Karya Skripsi/Tesis/Disertasi Tidak Diterbitkan:
+       Samik. (2007). *Prediksi Jenis Ikatan antara Asam Humat Tinja Sapi (AHTS) dengan Kation Timbal (II)*. (Tugas akhir). Universitas Negeri Surabaya, Surabaya.
+
+================================================================================
+BAB 7: PENULISAN ARTIKEL ILMIAH & ETIKA PUBLIKASI JURNAL
+================================================================================
+7.1 KLASIFIKASI KELAS JURNAL ILMIAH DI INDONESIA
+1. Jurnal Nasional: Memenuhi kaidah ilmiah, memiliki ISSN dan versi daring (online), ber-editor ahli, menggunakan Bahasa Indonesia/Inggris dengan abstrak Indonesia, serta penulis berasal dari minimal 2 institusi berbeda.
+2. Jurnal Nasional Terakreditasi: Memenuhi kriteria jurnal nasional dan telah mendapat status akreditasi resmi dari Ditjen Penguatan Riset dan Pengembangan Kemristekdikti atau LIPI (Sinta 1 s.d Sinta 6).
+3. Jurnal Internasional: Ditulis menggunakan bahasa resmi PBB (Inggris, Prancis, Arab, Rusia, Tiongkok), ber-ISSN, memiliki versi online, dewan editor (editorial board) merupakan pakar sedikitnya dari 4 negara berbeda, serta artikel dalam satu terbitan ditulis oleh penulis lintas berbagai negara. Jurnal nasional terakreditasi B yang terindeks DOAJ ber-green tick diakui setara jurnal internasional.
+4. Jurnal Internasional Bereputasi: Memenuhi kriteria jurnal internasional serta terindeks oleh pangkalan data (database) internasional bereputasi tinggi seperti Scopus atau Web of Science (Clarivate Analytics), dan memiliki faktor dampak (Impact Factor) atau Scimago Journal Rank (SJR) minimal berada pada kluster kuartil tiga (serendah-rendahnya Q3). Klusterisasi mutu dari tertinggi ke terendah adalah Q1, Q2, Q3, dan Q4.
+
+7.2 ALUR PROSES PEER-REVIEW DAN PENERBITAN JURNAL
+1. Penyiapan Naskah: Penulis wajib menyesuaikan artikel dengan ruang lingkup (*Aims and Scope*) dan Gaya Selingkung (Format struktur layout naskah / Author Guidelines) menggunakan Template bawaan jurnal (Contoh: Jurnal Syntax, Lampiran 18). Artikel harus memiliki unsur kebaruan ilmiah (*Novelty*). Jenis tulisan: *Original article* (hasil penelitian), *Review article* (kajian pustaka), *Short communications* (temuan penting singkat), dan *Expert commentary*.
+2. Penapisan Awal (*Screening*): Dilakukan pertama kali oleh Editor Utama (*Chief Editor*). Memeriksa kesesuaian ruang lingkup, mutu dasar tulisan, dan kepatuhan instruksi template. Jika tidak sesuai, editor melakukan penolakan cepat (*Rapid Rejection*) untuk mengembalikan naskah ke penulis agar dapat segera diperbaiki atau dikirim ke jurnal lain.
+3. Proses Telaah (*Peer-Review*): Naskah yang lolos penapisan awal dikirimkan ke Mitra Bestari (*Reviewer* / Penelaah) yang merupakan pakar ahli di bidangnya. Reviewer mengevaluasi naskah dalam waktu 3-4 pekan, memberikan kritik perbaikan, serta memberikan rekomendasi kelayakan terbit kepada editor. Sistem penelaahan umumnya menggunakan sistem *Double Blind* (Penulis dan Reviewer saling tidak mengetahui identitas satu sama lain). Model lainnya adalah *Single Blind* atau *Open Peer-Review*.
+4. Jenis Keputusan Akhir Sidang Redaksi Jurnal:
+   - *Accept without any changes (Acceptance)*: Diterima langsung tanpa revisi (Sangat jarang terjadi).
+   - *Accept with minor revisions (Acceptance)*: Diterima dengan perbaikan-perbaikan kecil (Hasil terbaik yang realistis bagi penulis).
+   - *Accept after major revisions (Conditional acceptance)*: Diterima secara bersyarat dengan kewajiban melakukan revisi besar sesuai saran reviewer/editor.
+   - *Revise and resubmit (Conditional rejection)*: Ditolak secara bersyarat, editor bersedia mengevaluasi kembali dari awal jika penulis melakukan perombakan dan revisi total pada naskah.
+   - *Reject the paper (Outright rejection)*: Ditolak secara mutlak dan tidak akan diterbitkan meskipun penulis menawarkan revisi total.
+
+7.3 ETIKA PUBLIKASI DAN DAFTAR PELANGGARAN EDITORIAL
+Ketentuan etika ketat yang wajib dipatuhi oleh Penulis/Mahasiswa:
+1. Larangan Mutlak Multiple Submission: Penulis dilarang keras mengirimkan satu naskah artikel yang sama ke beberapa jurnal yang berbeda secara bersamaan dalam satu waktu. Wajib menunggu keputusan final jurnal pertama selesai (jika 2-3 bulan tanpa kabar, penulis berhak mengirim surel menanyakan status ke editor atau menarik naskah resmi sebelum dipindahkan).
+2. Plagiarisme & Parafrase: Segala bentuk penulisan ide, data, grafik milik orang lain wajib disitasi sumber aslinya. Kalimat kutipan sangat dianjurkan ditulis menggunakan teknik parafrase (mengubah susunan kalimat tanpa mengubah makna asli) untuk menghindari sensor plagiarisme.
+3. Kriteria Kepengarangan (*Authorship*): Daftar nama penulis dibatasi hanya untuk pihak yang memberikan kontribusi signifikan dalam desain, eksekusi, atau interpretasi penelitian. Penulis Korespondensi (*Corresponding Author*) bertanggung jawab penuh mengomunikasikan draf final dan mendapat persetujuan dari seluruh penulis pembantu sebelum naskah disubmit.
+4. Koreksi Kesalahan: Jika penulis menemukan kesalahan data fatal pada artikelnya yang telah terlanjur terbit, penulis berkewajiban segera menghubungi editor/penerbit untuk melakukan penarikan naskah (*Retraction*) atau penerbitan ralat perbaikan (*Erratum/Corrigendum*).
+5. Kriteria Penghapusan Jurnal dari Indeks DOAJ: Jurnal dicabut dari daftar jika: berubah menjadi tidak akses terbuka (berbayar), tidak aktif menerbitkan artikel dalam 1 tahun terakhir, situs web rusak/URL tidak dapat diakses, terbukti ada fraud/ketidakberesan dalam editorial, penerbit tidak mendaftar ulang, atau melanggar praktik tata kelola terbaik (*Best Practice*).

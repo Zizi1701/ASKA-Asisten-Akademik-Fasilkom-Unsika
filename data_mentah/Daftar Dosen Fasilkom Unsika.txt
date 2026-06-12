@@ -1,0 +1,48 @@
+================================================================================
+DAFTAR DOSEN FASILKOM UNSIKA
+Nama Dosen | No Telepon | NIDN
+================================================================================
+
+Ade Andri Hendriadi, S.Si., M.Kom. | 081214992479 | 0402047903
+Adhi Rizal, MT. | 085224502300 | 0007089101
+Agung Susilo Yudha Irawan, M.Kom. | 087744361661 | 0015069302
+Aji Primajaya, S.Si., M.Kom. | 081331718961 | 0026048706
+Apriade Voutama, M.Kom. | 081261037595 | 0004049401
+Aries Suharso, S.Si., M.Kom. | 081280722269 | 0422037701
+Arip Solehudin, M.Kom. | 085794726601 | 0016048902
+Asep Jamaludin, S.Si., M.Kom. | 081910201165 | 0010017606
+Azhari Ali Ridha, S.Kom., MMSI. | 08129341022 | 0415098003
+H. Bagja Nugraha, ST., M.Kom. | 08568333700 | 0012108501
+Betha Nurina Sari, M.Kom. | 081553031989 | 0023108901
+Budi Arif Dermawan, M.Kom. | 085716061430 | 0008019004
+Carudin, M.Kom. | 085959592431 | 0013048804
+Chaerur Rozikin, M.Kom. | 081514329822 | 0020058305
+Dadang Yusup, M.Kom. | 089682725470 | 0424048202
+Didi Juardi, S.T., M.Kom. | 082298234234 | 0422047101
+E. Haodudin Nurkifli, S.T., M.Cs. | 08999171682 | 0003048503
+Garno, M.Kom. | 085718333773 | 0029017806
+Hannie, S.Kom., MMSI. | 083893376009 | 0430088205
+Intan Purnamasari, M.Kom. | 082124472112 | 0006029201
+Iqbal Maulana, S.Si., M.Sc. | 089631173316 | 0012029105
+Jajam Haerul Jaman, S.E., M.Kom. | 081585339743 | 0010117808
+Kamal Prihandani, M.Kom. | 081324369646 | 0002069106
+M. Jajuli, M.Si. | 081213004170 | 0404128701
+Nina Sulistiyowati, S.T., M.Kom. | 081221811122 | 0009028307
+Nono Heryana, M.Kom. | 0816795221 | 0003038905
+Oman Komarudin, S.Si., M.Kom. | 081212073393 | 0406047702
+Purwantoro, M.Kom. | 085885637201 | 0408117702
+Ratna Mufidah, M.Kom. | 08179643172 | 0004068708
+Rini Mayasari, M.Kom. | 08561082077 | 0028059101
+Riza Ibnu Adam, M.Si. | 085693194986 | 0006119002
+Siska, M.Kom. | 087879063310 | 0030109004
+Sofi Defiyanti, M.Kom. | 083899671007 | 0413128502
+Susilawati, M.Si. | 085624438817 | 0018019002
+Taufik Ridwan, S.T., M.T. | 085774650670 | 0006079201
+Tesa Nur Padilah, S.Si., M.Sc. | 085223259209 | 0019109001
+Ultach Enri, M.Kom. | 081310013194 | 0001018108
+Yuyun Umaidah, M.Kom. | 081213565469 | 0005088303
+
+================================================================================
+Total: 38 Dosen FASILKOM UNSIKA
+Format: Nama Dosen | No Telepon | NIDN
+================================================================================

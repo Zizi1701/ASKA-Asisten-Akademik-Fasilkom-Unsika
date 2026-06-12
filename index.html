@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>ASKA - Asisten Akademik Fasilkom Unsika</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+    
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-low": "#f8f9fa",
+                        "on-surface": "#181c20",
+                        "primary-container": "#8A1538",
+                        "on-primary": "#ffffff",
+                        "surface-bright": "#fcfcfd",
+                        "surface-variant": "#e0e3e8"
+                    },
+                    "spacing": { "sidebar-width": "280px", "right-panel-width": "340px" }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #fcfcfd; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #e0e3e8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #d7dadf; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-in-up { animation: fadeInUp 0.4s ease-out forwards; }
+    </style>
+</head>
+<body class="text-on-surface h-screen flex overflow-hidden">
+    
+    <div class="fixed inset-0 bg-on-surface/20 z-40 hidden md:hidden transition-opacity" id="mobile-drawer-overlay"></div>
+    
+    <aside class="w-sidebar-width h-screen flex-shrink-0 bg-surface-container-low flex flex-col py-6 gap-2 z-50 transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out border-r border-surface-variant absolute md:relative" id="sidebar">
+        <div class="px-6 pb-6 border-b border-surface-variant">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-[#ffffff] border border-surface-variant flex items-center justify-center shrink-0 overflow-hidden p-1">
+                    <img src="Asisten Akademik Fasilkom Unsika.png" alt="ASKA" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"/>
+                    <span class="material-symbols-outlined text-[#8A1538] hidden">school</span>
+                </div>
+                <div>
+                    <h2 class="font-bold text-on-surface text-sm leading-tight">Chatbot Akademik</h2>
+                    <div class="flex items-center gap-1.5 mt-1">
+                        <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                        <span class="text-[11px] font-semibold text-gray-500">Online</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="px-5 py-4 flex gap-2">
+            <button onclick="buatChatBaru()" class="flex-1 flex items-center justify-center gap-1 bg-primary-container text-on-primary py-2 px-2 rounded-lg text-sm font-semibold hover:bg-[#6b0f2a] transition-colors shadow-sm">
+                <span class="material-symbols-outlined text-[18px]">add</span> Chat Baru
+            </button>
+            <button onclick="hapusSemuaChat()" class="flex-1 flex items-center justify-center gap-1 bg-[#ffffff] text-on-surface border border-surface-variant py-2 px-2 rounded-lg text-sm font-semibold hover:bg-gray-50 transition-colors">
+                <span class="material-symbols-outlined text-[18px]">delete</span> Hapus
+            </button>
+        </div>
+
+        <div class="flex-1 overflow-y-auto px-2 py-2">
+            <div class="px-4 pb-2 flex items-center gap-2 text-[11px] font-bold text-gray-500 uppercase tracking-wider">
+                <span class="material-symbols-outlined text-[14px]">push_pin</span> Dokumen Tersedia
+            </div>
+            <nav class="flex flex-col gap-1 mb-6">
+                <div class="flex items-center gap-3 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-100"><span class="material-symbols-outlined text-[18px] text-[#8A1538]">calendar_month</span>Kalender Akademik</div>
+                <div class="flex items-center gap-3 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-100"><span class="material-symbols-outlined text-[18px] text-blue-600">work</span>Panduan Magang</div>
+                <div class="flex items-center gap-3 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-100"><span class="material-symbols-outlined text-[18px] text-red-400">description</span>Panduan Tugas Akhir</div>
+                <div class="flex items-center gap-3 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-100"><span class="material-symbols-outlined text-[18px] text-yellow-600">group</span>Daftar Dosen</div>
+                <div class="flex items-center gap-3 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-100"><span class="material-symbols-outlined text-[18px] text-indigo-500">schedule</span>Jadwal Kelas</div>
+            </nav>
+
+            <div class="px-4 pb-2 flex items-center gap-2 text-[11px] font-bold text-gray-500 uppercase tracking-wider border-t border-surface-variant pt-5">
+                <span class="material-symbols-outlined text-[14px]">history</span> Riwayat Chat
+            </div>
+            <div id="history-list" class="flex flex-col gap-1 px-2">
+                </div>
+        </div>
+    </aside>
+
+    <main class="flex-1 flex flex-col relative transition-all duration-300 min-w-0">
+        <header class="flex justify-between items-center w-full px-6 py-4 bg-transparent sticky top-0 z-30 h-[64px]">
+            <button class="md:hidden p-2 -ml-2 text-on-surface rounded-full hover:bg-gray-100 transition-colors" id="open-sidebar">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </header>
+
+        <div id="scroll-container" class="flex-1 overflow-y-auto px-4 md:px-8 pb-32 pt-4 flex flex-col items-center">
+            
+            <div id="welcome-hero" class="w-full max-w-2xl flex flex-col items-center text-center mt-8 space-y-6 animate-fade-in-up">
+                <div class="w-24 h-24 rounded-2xl bg-[#ffffff] border border-surface-variant flex items-center justify-center shadow-sm overflow-hidden p-2">
+                    <img src="Asisten Akademik Fasilkom Unsika.png" alt="ASKA" class="w-full h-full object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"/>
+                    <span class="material-symbols-outlined text-[48px] text-[#8A1538] hidden" style="font-variation-settings: 'FILL' 1;">school</span>
+                </div>
+                <div class="space-y-3">
+                    <h1 class="text-2xl font-bold text-on-surface tracking-tight">Halo, Mahasiswa!</h1>
+                    <p class="text-sm text-gray-600 leading-relaxed">Saya ASKA, Asisten Akademik Fasilkom Unsika.<br>Siap membantu Anda dengan informasi akademik.</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-2 mt-4 max-w-xl">
+                    <button class="suggest-btn px-4 py-2 bg-[#ffffff] border border-surface-variant rounded-full text-[13px] font-medium text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">Kapan batas KRS semester ini?</button>
+                    <button class="suggest-btn px-4 py-2 bg-[#ffffff] border border-surface-variant rounded-full text-[13px] font-medium text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">Syarat daftar magang?</button>
+                    <button class="suggest-btn px-4 py-2 bg-[#ffffff] border border-surface-variant rounded-full text-[13px] font-medium text-gray-700 hover:bg-gray-50 transition-colors shadow-sm">Jadwal kelas Pemrograman Web?</button>
+                </div>
+            </div>
+
+            <div id="chat-box" class="w-full max-w-2xl flex flex-col space-y-6 mt-6 mb-8"></div>
+        </div>
+
+        <div class="absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-[#fcfcfd] via-[#fcfcfd] to-transparent pointer-events-none">
+            <div class="max-w-2xl mx-auto pointer-events-auto">
+                <div class="relative flex items-center bg-[#ffffff] shadow-[0_4px_20px_rgba(0,0,0,0.05)] rounded-2xl border border-gray-200 focus-within:ring-2 focus-within:ring-[#8A1538]/20 transition-all">
+                    <div class="pl-4 pr-2 text-gray-400"><span class="material-symbols-outlined text-[20px]">attach_file</span></div>
+                    <textarea id="chat-input" class="flex-1 bg-transparent border-none focus:ring-0 resize-none py-4 px-2 text-sm text-on-surface placeholder:text-gray-400 max-h-[120px] min-h-[52px] outline-none" placeholder="Tanya tentang Panduan Magang..." rows="1" style="scrollbar-width: none;"></textarea>
+                    <div class="pr-2 pl-2">
+                        <button id="send-btn" class="w-10 h-10 rounded-xl bg-[#8A1538] text-white flex items-center justify-center hover:bg-[#6b0f2a] transition-colors focus:outline-none">
+                            <span class="material-symbols-outlined text-[20px]">send</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="text-center mt-2 text-[10px] text-gray-400">ASKA dapat membuat kesalahan. Harap verifikasi informasi penting dengan pihak fakultas.</div>
+            </div>
+        </div>
+    </main>
+
+    <aside id="right-panel" class="w-right-panel-width h-screen hidden flex-col border-l border-surface-variant bg-[#fcfcfd] flex-shrink-0 relative overflow-hidden transition-all duration-300">
+        <div class="px-6 py-5 border-b border-surface-variant bg-[#ffffff]">
+            <h3 class="flex items-center gap-2 text-sm font-bold text-gray-800">
+                <span class="material-symbols-outlined text-[18px] text-[#8A1538]">info</span> Dokumen Referensi
+            </h3>
+        </div>
+        <div id="right-panel-content" class="flex-1 overflow-y-auto p-6 bg-gray-50/50"></div>
+    </aside>
+
+    <script>
+        // -- UI Controls --
+        const sidebar = document.getElementById('sidebar');
+        const openBtn = document.getElementById('open-sidebar');
+        const overlay = document.getElementById('mobile-drawer-overlay');
+        const chatInput = document.getElementById('chat-input');
+        const sendBtn = document.getElementById('send-btn');
+        const chatBox = document.getElementById('chat-box');
+        const welcomeHero = document.getElementById('welcome-hero');
+        const scrollContainer = document.getElementById('scroll-container');
+        const rightPanel = document.getElementById('right-panel');
+        const rightPanelContent = document.getElementById('right-panel-content');
+        const historyList = document.getElementById('history-list');
+
+        openBtn.addEventListener('click', () => { sidebar.classList.toggle('-translate-x-full'); overlay.classList.toggle('hidden'); });
+        overlay.addEventListener('click', () => { sidebar.classList.add('-translate-x-full'); overlay.classList.add('hidden'); });
+        chatInput.addEventListener('input', function() { this.style.height = 'auto'; this.style.height = (this.scrollHeight < 120 ? this.scrollHeight : 120) + 'px'; });
+        function scrollToBottom() { scrollContainer.scrollTo({ top: scrollContainer.scrollHeight, behavior: 'smooth' }); }
+
+        // --- MANAJEMEN RIWAYAT CHAT (LOCAL STORAGE) ---
+        let currentChatId = null;
+        let chatHistoryDb = JSON.parse(localStorage.getItem('aska_chats')) || [];
+
+        function renderHistorySidebar() {
+            historyList.innerHTML = '';
+            if (chatHistoryDb.length === 0) {
+                historyList.innerHTML = '<div class="px-2 py-1 text-xs text-gray-400 italic">Belum ada riwayat chat.</div>';
+                return;
+            }
+            chatHistoryDb.forEach(chat => {
+                const isActive = chat.id === currentChatId ? 'bg-gray-100 font-bold' : 'hover:bg-gray-50';
+                historyList.innerHTML += `
+                    <button onclick="bukaChat('${chat.id}')" class="w-full text-left flex items-center gap-2 text-gray-700 px-3 py-2 rounded-lg text-[13px] ${isActive} transition truncate">
+                        <span class="material-symbols-outlined text-[16px] text-gray-400">chat_bubble</span>
+                        <span class="truncate">${chat.preview}</span>
+                    </button>
+                `;
+            });
+        }
+
+        function simpanPesanKeDb(role, content, sumber = []) {
+            if (!currentChatId) {
+                currentChatId = Date.now().toString();
+                chatHistoryDb.unshift({ id: currentChatId, preview: content.substring(0, 30) + "...", messages: [] });
+            }
+            const chatIndex = chatHistoryDb.findIndex(c => c.id === currentChatId);
+            if (chatIndex !== -1) {
+                chatHistoryDb[chatIndex].messages.push({ role, content, sumber });
+                localStorage.setItem('aska_chats', JSON.stringify(chatHistoryDb));
+                renderHistorySidebar();
+            }
+        }
+
+        function buatChatBaru() {
+            currentChatId = null;
+            chatBox.innerHTML = '';
+            welcomeHero.style.display = 'flex';
+            updateRightPanel([]);
+            renderHistorySidebar();
+        }
+
+        function hapusSemuaChat() {
+            if(confirm('Apakah Anda yakin ingin menghapus semua riwayat chat?')) {
+                localStorage.removeItem('aska_chats');
+                chatHistoryDb = [];
+                buatChatBaru();
+            }
+        }
+
+        function bukaChat(id) {
+            currentChatId = id;
+            const chatObj = chatHistoryDb.find(c => c.id === id);
+            if (!chatObj) return;
+
+            welcomeHero.style.display = 'none';
+            chatBox.innerHTML = '';
+            let lastSumber = [];
+
+            chatObj.messages.forEach(msg => {
+                if (msg.role === 'user') {
+                    chatBox.innerHTML += `<div class="flex justify-end mb-6"><div class="bg-[#8A1538] text-white rounded-[16px_4px_16px_16px] px-5 py-3 max-w-[85%] shadow-sm"><p class="text-[14px] leading-relaxed">${msg.content}</p></div></div>`;
+                } else {
+                    lastSumber = msg.sumber || [];
+                    let chipsHtml = '';
+                    if(lastSumber.length > 0) {
+                        chipsHtml = `<div class="mt-4 flex flex-wrap gap-2">${lastSumber.map(s => `<div class="inline-flex items-center gap-1 px-3 py-1 bg-[#fcfcfd] border border-gray-200 rounded-md text-[11px] text-[#8A1538] font-medium"><span class="material-symbols-outlined text-[14px]">description</span> ${s.replace('.txt','')}</div>`).join('')}</div>`;
+                    }
+                    chatBox.innerHTML += `<div class="flex justify-start gap-4 mb-6"><div class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-gray-200 bg-white flex items-center justify-center shrink-0 shadow-sm overflow-hidden p-1"><img src="Asisten Akademik Fasilkom Unsika.png" class="w-full h-full object-contain"/></div><div class="bg-[#ffffff] text-on-surface rounded-[4px_16px_16px_16px] px-6 py-5 max-w-[90%] border border-gray-100 shadow-[0_2px_10px_rgba(0,0,0,0.02)]"><p class="text-[14px] leading-relaxed text-gray-700">${msg.content}</p>${chipsHtml}</div></div>`;
+                }
+            });
+            updateRightPanel(lastSumber);
+            scrollToBottom();
+            renderHistorySidebar();
+        }
+
+        // --- MERENDER PANEL KANAN ---
+        function updateRightPanel(sumberArray) {
+            if (!sumberArray || sumberArray.length === 0) {
+                rightPanel.classList.add('hidden'); rightPanel.classList.remove('lg:flex');
+                return;
+            }
+            rightPanel.classList.remove('hidden'); rightPanel.classList.add('lg:flex');
+            let cardsHtml = sumberArray.map(sumber => `
+                <div class="bg-white border border-gray-200 rounded-xl p-4 mb-3 shadow-sm hover:shadow-md transition-shadow">
+                    <div class="flex items-start gap-3">
+                        <div class="w-10 h-10 bg-[#fce8ed] rounded-lg flex items-center justify-center text-[#8A1538] shrink-0"><span class="material-symbols-outlined">picture_as_pdf</span></div>
+                        <div><h4 class="text-[13px] font-bold text-gray-800 leading-tight">${sumber.replace('.txt', '')}</h4><p class="text-[11px] text-gray-500 mt-1">Dokumen Resmi Fasilkom</p></div>
+                    </div>
+                </div>`).join('');
+            rightPanelContent.innerHTML = `<div class="animate-fade-in-up"><h5 class="text-[11px] font-bold text-gray-500 uppercase tracking-wider mb-4">Terdeteksi di Dokumen:</h5>${cardsHtml}</div>`;
+        }
+
+        // --- FUNGSI KIRIM PESAN KE PYTHON ---
+        async function kirimPesan(teksSaran = null) {
+            const pesan = teksSaran || chatInput.value.trim();
+            if (!pesan) return;
+
+            if (welcomeHero.style.display !== 'none') welcomeHero.style.display = 'none';
+
+            simpanPesanKeDb('user', pesan); // Simpan ke local storage
+            
+            chatBox.innerHTML += `<div class="flex justify-end animate-fade-in-up mb-6"><div class="bg-[#8A1538] text-white rounded-[16px_4px_16px_16px] px-5 py-3 max-w-[85%] shadow-sm"><p class="text-[14px] leading-relaxed">${pesan.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</p></div></div>`;
+            chatInput.value = ''; chatInput.style.height = 'auto'; scrollToBottom();
+
+            const loadingId = 'loading-' + Date.now();
+            chatBox.innerHTML += `<div id="${loadingId}" class="flex justify-start gap-4 animate-fade-in-up mb-6"><div class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-gray-200 bg-white flex items-center justify-center shrink-0 shadow-sm overflow-hidden p-1"><img src="Asisten Akademik Fasilkom Unsika.png" class="w-full h-full object-contain opacity-50 animate-pulse"/></div><div class="bg-[#f8f9fa] text-gray-500 rounded-[4px_16px_16px_16px] px-5 py-3 max-w-[85%] border border-gray-100"><p class="text-[14px] italic">Mengetik...</p></div></div>`;
+            scrollToBottom();
+
+            try {
+                const response = await fetch('http://localhost:8000/chat', {
+                    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ pesan: pesan })
+                });
+                const data = await response.json();
+                document.getElementById(loadingId).remove();
+
+                if(data.status === "success") {
+                    simpanPesanKeDb('assistant', data.jawaban, data.sumber); // Simpan jawaban AI ke db
+                    updateRightPanel(data.sumber);
+
+                    let chipsHtml = '';
+                    if(data.sumber && data.sumber.length > 0) {
+                        chipsHtml = `<div class="mt-4 flex flex-wrap gap-2">${data.sumber.map(s => `<div class="inline-flex items-center gap-1 px-3 py-1 bg-[#fcfcfd] border border-gray-200 rounded-md text-[11px] text-[#8A1538] font-medium"><span class="material-symbols-outlined text-[14px]">description</span> ${s.replace('.txt','')}</div>`).join('')}</div>`;
+                    }
+                    const formatJawaban = data.jawaban.replace(/\n/g, '<br>');
+                    chatBox.innerHTML += `<div class="flex justify-start gap-4 animate-fade-in-up mb-6"><div class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-gray-200 bg-white flex items-center justify-center shrink-0 shadow-sm overflow-hidden p-1"><img src="Asisten Akademik Fasilkom Unsika.png" class="w-full h-full object-contain"/></div><div class="bg-[#ffffff] text-on-surface rounded-[4px_16px_16px_16px] px-6 py-5 max-w-[90%] border border-gray-100 shadow-[0_2px_10px_rgba(0,0,0,0.02)]"><p class="text-[14px] leading-relaxed text-gray-700">${formatJawaban}</p>${chipsHtml}</div></div>`;
+                } else throw new Error(data.message || "Gagal mendapatkan respon.");
+            } catch (error) {
+                if(document.getElementById(loadingId)) document.getElementById(loadingId).remove();
+                chatBox.innerHTML += `<div class="flex justify-start gap-4 animate-fade-in-up mb-6"><div class="bg-red-50 text-red-800 border border-red-200 rounded-[4px_16px_16px_16px] px-5 py-3 max-w-[85%]"><p class="text-[13px]">${error.message}</p></div></div>`;
+                updateRightPanel([]);
+            }
+            scrollToBottom();
+        }
+
+        // Trigger Event Listeners
+        sendBtn.addEventListener('click', () => kirimPesan());
+        chatInput.addEventListener('keypress', function (e) { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); kirimPesan(); } });
+        document.querySelectorAll('.suggest-btn').forEach(btn => btn.addEventListener('click', function() { kirimPesan(this.innerText); }));
+        
+        // Render riwayat saat pertama kali load
+        renderHistorySidebar();
+    </script>
+</body>
+</html>

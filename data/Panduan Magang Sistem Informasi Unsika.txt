@@ -1,0 +1,374 @@
+PANDUAN MAGANG SISTEM INFORMASI UNSIKA 2024
+FAKULTAS ILMU KOMPUTER - UNIVERSITAS SINGAPERBANGSA KARAWANG
+
+================================================================================
+METADATA DOKUMEN
+================================================================================
+Judul Dokumen: Panduan Magang Sistem Informasi 2024
+Institusi: Program Studi Sistem Informasi, Fakultas Ilmu Komputer, Universitas Singaperbangsa Karawang (UNSIKA)
+Tahun Penerbitan: 2024
+Tim Penyusun:
+- Pengarah: Dr. Oman Komarudin, S.Si, M.Kom (Dekan Fakultas Ilmu Komputer)
+- Penanggung Jawab: Nina Sulistiyowati, S.T., M.Kom. & Betha Nurina Sari, M.Kom.
+- Koordinator Tim: Apriade Voutama, M.Kom.
+- Anggota Tim: Siska, M.Kom. & Aziz Ma'sum, M.Kom.
+- Koordinator Program Studi: Azhari Ali Ridha, S.Kom., MMSI.
+Tanggal Pengesahan: 26 September 2024
+
+================================================================================
+KATA PENGANTAR & TUJUAN UTAMA PANDUAN
+================================================================================
+Panduan magang ini disusun sebagai dokumen standar atau petunjuk operasional baku mengenai alur magang di prodi Sistem Informasi UNSIKA. Dokumen ini bertujuan untuk memberi arahan mandiri dan terstruktur bagi mahasiswa (mulai persiapan, pelaksanaan, hingga pelaporan) serta memperjelas pembagian tugas dosen pembimbing akademik dan pembimbing lapangan (mentor mitra). Sasarannya adalah mahasiswa angkatan 2021, 2022, dan angkatan selanjutnya yang akan melaksanakan magang.
+
+================================================================================
+BAB 1: PENDAHULUAN
+================================================================================
+A. LATAR BELAKANG MAGANG
+Magang adalah kegiatan belajar luar kampus bagi mahasiswa Fakultas Ilmu Komputer UNSIKA untuk memperoleh pengalaman karier di dunia kerja nyata. Magang bersifat wajib dan menjadi salah satu syarat mutlak kelulusan (Yudisium) bagi mahasiswa S1 Program Studi Sistem Informasi.
+Fungsi Utama Magang:
+1. Menghubungkan kemampuan akademik (teori perkuliahan) dengan kebutuhan riil dunia industri.
+2. Meningkatkan keterampilan hardskill maupun soft skill mahasiswa.
+3. Sarana menemukan permasalahan nyata di industri yang nantinya dapat diangkat menjadi topik Tugas Akhir (Skripsi).
+4. Melatih profesionalisme, kedisiplinan, kreativitas, integritas, dan akuntabilitas kerja.
+
+B. TUJUAN MAGANG BAGI MAHASISWA
+1. Memperluas dan memantapkan kemampuan mahasiswa sebagai bekal memasuki dunia kerja yang sesuai bidang ilmu Sistem Informasi.
+2. Meningkatkan keterampilan psikomotorik melalui praktik langsung secara riil di lapangan.
+3. Menumbuhkan dan memantapkan sikap profesional dalam lingkungan kerja.
+4. Memotivasi mahasiswa untuk bekerja atau menciptakan lapangan kerja baru (wirausaha) berbasis teknologi.
+5. Meningkatkan kemampuan soft skills (kerja mandiri maupun kolaborasi kelompok).
+6. Mengimplementasikan teori keilmuan perkuliahan ke dalam ekosistem industri.
+7. Menyerap perkembangan teknologi baru yang diterapkan di unit tujuan magang.
+8. Mengenali peluang kerja dan menyiapkan diri menghadapi lingkungan kerja setelah lulus.
+9. Mengetahui implementasi sistem informasi dan teknologi informasi secara langsung pada organisasi atau korporasi.
+
+C. MANFAAT BAGI MITRA & INSTITUSI
+Program magang dirancang dengan asas "Link and Match" untuk menjalin hubungan kemitraan yang berkelanjutan antara dunia usaha/dunia industri (DUDI) atau instansi pemerintah dengan Fakultas Ilmu Komputer UNSIKA.
+
+D. LANDASAN HUKUM
+1. Lampiran Permenristekdikti No. 44 Tahun 2015 tentang Standar Nasional Pendidikan Tinggi (Rumus Keterampilan Umum S1).
+2. Peraturan Menteri Riset, Teknologi dan Pendidikan Tinggi RI Nomor 8 Tahun 2016 tentang Statuta UNSIKA Bab XI Kerja Sama Pasal 87 Poin (5).
+3. Permendikbud Nomor 3 Tahun 2020 tentang Standar Nasional Pendidikan Tinggi (Hak mengambil SKS luar prodi maksimal 2 semester/setara 40 SKS, dan luar prodi dalam PT yang sama sebanyak 1 semester/setara 20 SKS).
+4. Buku Rencana Strategis (Renstra) Universitas Singaperbangsa Karawang 2020-2024.
+5. Buku Pedoman Merdeka Belajar Kampus Merdeka (MBKM) UNSIKA 2022.
+6. Buku Pedoman Konversi Nilai Matakuliah UNSIKA 2022.
+7. Kurikulum Program Studi Sistem Informasi Tahun 2022.
+8. Draft Kurikulum OBE (Outcome-Based Education) Program Studi Sistem Informasi Tahun 2024.
+
+================================================================================
+BAB 2: RUANG LINGKUP & KLASIFIKASI MAGANG
+================================================================================
+A. DESKRIPSI DAN RUANG LINGKUP
+Ruang lingkup magang mencakup pemahaman masalah organisasi dan penyusunan solusi berbasis disiplin ilmu Sistem Informasi pada jenjang Strata 1 (S1). Penilaian didasarkan pada aspek Kelayakan dan Kecukupan Magang.
+- Durasi Waktu: Minimal dilaksanakan selama 1 bulan dan maksimal selama 6 bulan (1 semester penuh).
+- Status Mahasiswa: Mahasiswa aktif UNSIKA.
+- Sifat Kerja: Full-time (paruh waktu penuh) atau Part-time (paruh waktu) sesuai kesepakatan institusi dan mitra.
+- Pola Anggota: Dapat diikuti secara individu atau berkelompok (jumlah anggota kelompok disesuaikan kebutuhan mitra industri).
+
+B. KLASIFIKASI BERDASARKAN UNIT TUJUAN (MITRA)
+Tempat magang yang dinilai layak dan memenuhi syarat diklasifikasikan menjadi:
+1. Perusahaan BUMN / BUMD: Berbentuk Perusahaan Jawatan (PERJAN), Perusahaan Umum (PERUM), Persero (PT.), Perusahaan Umum Daerah, dan Perusahaan Perseroan Daerah (UU No. 19 Tahun 2003).
+2. Perusahaan Swasta: Berbentuk Perseroan Terbatas (PT), Firma, atau Commanditaire Vennootschap (CV).
+3. Usaha Mikro, Kecil, dan Menengah (UMKM): Mengacu UU No. 20 Tahun 2008. Wajib memiliki Surat Izin Usaha atau Surat Keterangan Usaha dari instansi pemerintah yang berwenang. Kriteria keuangan:
+   - Mikro: Aset maks Rp 50 juta, omset maks Rp 300 juta.
+   - Kecil: Aset > Rp 50 juta - Rp 500 juta, omset > Rp 300 juta - Rp 2,5 miliar.
+   - Menengah: Aset > Rp 500 juta - Rp 10 miliar, omset > Rp 2,5 miliar - Rp 50 miilar.
+4. Koperasi: Berbentuk Koperasi Primer atau Sekunder yang memiliki legalitas usaha resmi sesuai UU No. 25 Tahun 1992.
+5. Organisasi Nirlaba: Yayasan nirlaba (harus berbadan hukum resmi), Perkumpulan/Komunitas Masyarakat (harus berbadan hukum resmi), atau Organisasi Kemasyarakatan (minimal tingkat/level desa).
+6. Organisasi Multilateral: Organisasi internasional yang melibatkan kerja sama lebih dari dua negara, di mana Pemerintah Indonesia menjadi anggota aktif di dalamnya.
+7. Institusi Pemerintah: Lembaga kementerian maupun non-kementerian. Terdiri dari:
+   - Internal Kampus UNSIKA: Mengikuti prosedur khusus magang internal.
+   - Non-Internal Kampus UNSIKA: Mengikuti alur magang secara umum.
+8. Perusahaan Rintisan (Startup): Model bisnis baru berbasis pemanfaatan teknologi yang wajib memiliki badan hukum berupa PT, Firma, atau CV.
+9. Magang Merdeka Belajar Kampus Merdeka (MBKM): Diselenggarakan resmi oleh Dikti Kemendikbudristek. Proses dan seleksi mengikuti portal resmi https://kampusmerdeka.kemdibud.go.id. Aturan konversi mengikuti kurikulum prodi.
+
+C. KLASIFIKASI BERDASARKAN JENIS KEGIATAN MAGANG
+1. Magang Penelitian / Riset
+Dilakukan di lembaga riset, pusat studi, atau laboratorium kampus/industri. Bertujuan memperkuat kemampuan penelitian mahasiswa di bawah bimbingan langsung peneliti ahli. Cocok untuk proyek riset berjangka pendek (1-2 semester).
+2. Magang Implementatif
+Kegiatan magang yang menghasilkan luaran berupa produk teknologi, sistem, atau perangkat lunak. Terdiri atas 4 sub-jenis:
+   a. Implementatif - Pengembangan: Membuat perangkat lunak baru menggunakan metodologi ilmiah (misal SDLC) yang telah diuji secara valid.
+   b. Implementatif - Perancangan: Membuat purwarupa/prototype software sebagai solusi yang diuji dengan metode pengujian tertentu.
+   c. Implementatif - Pengembangan Lanjut: Memperbaiki sistem berjalan, menambah fitur, atau mengoptimalkan penggunaan algoritma ilmiah pada software yang sudah ada.
+   d. Implementatif - Konstruksi: Mengembangkan prototype yang sudah ada sebelumnya hingga menjadi sistem yang siap digunakan (indikator sama dengan pengembangan).
+3. Magang Non-Implementatif
+Fokus pada pengelolaan data dan proses bisnis tanpa melakukan coding/pengembangan sistem. Terdiri atas 4 sub-jenis:
+   a. Non-Implementatif Deskriptif: Penggalian data melalui wawancara, kuesioner, atau observasi terkait isu/fenomena bisnis organisasi. Luaran berupa dokumen rekomendasi strategis.
+   b. Non-Implementatif Analitik: Menerapkan ilmu statistika untuk membuat hipotesis, penentuan variabel, pengambilan data, dan uji korelasi di tempat magang. Luaran berupa laporan hasil analisis objek/sistem.
+   c. Non-Implementatif Pemodelan: Mengikuti metodologi pemodelan data (seperti Data Mining / Business Intelligence) untuk menghasilkan model pengetahuan penunjang keputusan korporasi.
+   d. Non-Implementatif Perancangan: Menerapkan metode perancangan konseptual. Contoh: perancangan UI/UX sistem informasi, atau analisis kebutuhan aturan data (data analyst).
+
+================================================================================
+BAB 3: KELAYAKAN LAPORAN MAGANG
+================================================================================
+Laporan magang wajib memenuhi 2 aspek utama agar dapat diterima dan disahkan:
+A. ASPEK RELEVANSI
+1. Laporan memuat benang merah atau keterkaitan antara teori ilmu Sistem Informasi dengan praktik kerja riil di lapangan.
+2. Relevan dengan minimal 1 mata kuliah yang diajarkan di Prodi Sistem Informasi UNSIKA.
+3. Sesuai dengan klasifikasi magang yang telah ditetapkan (Riset, Implementatif, atau Non-Implementatif).
+4. Judul Laporan mencakup 3 unsur wajib: (Masalah yang diselesaikan) + (Solusi / Rekomendasi Solusi) + (Nama Mitra Tempat Magang).
+
+B. ASPEK ISI
+Format penulisan isi laporan disesuaikan secara rigid berdasarkan klasifikasi aktivitas magang yang dipilih (struktur bab mengacu pada aturan penulisan).
+
+================================================================================
+BAB 4: SKEMA MAGANG & PROSEDUR ALUR JALAN
+================================================================================
+Terdapat tiga skema utama pelaksanaan magang di Sistem Informasi UNSIKA:
+
+--------------------------------------------------------------------------------
+SKEMA A: MAGANG UMUM
+--------------------------------------------------------------------------------
+- Deskripsi: Magang mandiri berdurasi pendek untuk memenuhi mata kuliah Magang (3 SKS).
+- Syarat & Ketentuan:
+  1. Mahasiswa berada di semester 5 atau semester 7.
+  2. Direkomendasikan dilakukan pada libur panjang akhir semester atau pada semester berjalan.
+  3. Mahasiswa mencari tempat magang secara mandiri sesuai kriteria bab 2.
+  4. Durasi magang minimal 1 bulan.
+  5. Dosen Pembimbing Magang (DPM) adalah Dosen Wali atau Dosen Pengampu mata kuliah magang.
+  6. Wajib melaporkan hasil dalam bentuk presentasi kelas pada mata kuliah Magang sebagai nilai akhir.
+- Alur Prosedur Magang Umum:
+  1. Cari tempat magang -> Jika butuh surat pengantar, isi Form Permohonan Magang Umum di situs https://s.id/MagangSI menggunakan email Unsika.
+  2. Surat pengantar otomatis berformat PDF yang ditandatangani Koprodi akan dikirim ke email.
+  3. Tata Usaha (TU) memberikan nomor surat maksimal 3 hari kerja. Mahasiswa mengedit PDF untuk memasukkan nomor surat, mencetak, lalu menyerahkan ke mitra.
+  4. Jika diterima, mahasiswa mengisi Form Plot Pembimbing maksimal 7 hari sebelum magang dimulai (wajib melampirkan bukti surat balasan/penerimaan dari mitra).
+  5. TU merekomendasikan pembimbing ke Koprodi -> Koprodi menerbitkan Surat Tugas DPM via Dekan.
+  6. Tahap Persiapan: Diskusi rencana kerja dengan DPM, menyerahkan dokumen kesepakatan kerja ke mitra.
+  7. Tahap Pelaksanaan: Menulis logbook aktivitas harian (diisi tangan/ketik dan diparaf mentor mitra), bimbingan dengan DPM minimal 1 kali seminggu.
+  8. Tahap Pelaporan: Menyusun laporan magang (softcopy), meminta TTD persetujuan DPM dan Mentor Mitra. Unggah berkas laporan maks 14 hari kerja setelah magang selesai. Melampirkan berkas dokumentasi foto/video.
+  9. Penilaian: Presentasi akhir pada mata kuliah Magang.
+
+--------------------------------------------------------------------------------
+SKEMA B: MAGANG MANDIRI
+--------------------------------------------------------------------------------
+- Deskripsi: Program magang institusional berskala 1 semester yang dapat dikonversi hingga maksimal 20 SKS.
+- Syarat & Ketentuan:
+  1. Mahasiswa minimal semester 5, 6, atau 7.
+  2. Konversi SKS maksimal sebesar 20 SKS.
+  3. Mitra WAJIB memiliki dokumen kerja sama resmi dengan UNSIKA (MoU) atau PKS/MoA dengan Fasilkom UNSIKA. Jika belum ada, draf kerja sama harus diurus dan terwujud minimal saat magang selesai. Jika mitra menolak kerja sama, magang mandiri dibatalkan.
+  4. Batas pengajuan: Paling lambat 2-3 minggu sejak perkuliahan semester berjalan dimulai.
+  5. Durasi pelaksanaan: Minimal 4 hingga 5 bulan (1 Semester).
+  6. Dosen Pembimbing Magang ditentukan langsung oleh Koprodi.
+  7. Hasil magang wajib diujikan melalui Seminar Hasil Akhir Magang (dihadiri 1 Dosen Pembimbing dan 1 Dosen Penguji).
+  8. Skema ini TIDAK BISA diambil jika mahasiswa sudah pernah mengikuti program MBKM sebanyak 2 kali.
+- Alur Prosedur Magang Mandiri:
+  1. Konsultasi dengan Tim Pengelola Magang/Koprodi untuk verifikasi status kerja sama (MoU/PKS) mitra tujuan.
+  2. Alur pendaftaran surat-menyurat dan plot pembimbing sama dengan Magang Umum melalui https://s.id/MagangSI.
+  3. Bimbingan dilakukan minimal 1 kali seminggu.
+  4. Pengumpulan laporan softcopy dilakukan maksimal 14 hari kerja setelah selesai, lengkap dengan TTD DPM dan mentor mitra.
+  5. Menjalani Seminar Akhir untuk menentukan kelayakan nilai konversi 20 SKS.
+
+--------------------------------------------------------------------------------
+SKEMA C: MAGANG PROGRAM MBKM
+--------------------------------------------------------------------------------
+- Deskripsi: Magang bersertifikat resmi yang dijalankan melalui program nasional Kemendikbudristek (MSIB atau Kampus Mengajar).
+- Syarat & Ketentuan:
+  1. Mahasiswa semester 5, 6, dan 7.
+  2. Konversi SKS maksimal 20 SKS.
+  3. Durasi program: 1 Semester penuh.
+  4. Pembimbing: Dosen Wali Kampus dan Mentor resmi dari Mitra pilihan MBKM.
+  5. Maksimal hanya boleh diikuti sebanyak 2 kali selama masa studi.
+- Alur Prosedur Magang MBKM:
+  1. Pendaftaran dilakukan mandiri oleh mahasiswa melalui portal resmi nasional https://kampusmerdeka.kemdikbud.go.id/.
+  2. Jika dinyatakan lolos seleksi mitra, mahasiswa wajib mengisi Form Pendataan Peserta MBKM di situs proses magang internal prodi.
+  3. Koprodi dan Wakil Dekan Bidang Akademik melakukan validasi/verifikasi untuk menentukan daftar mata kuliah kompetensi yang dapat dikonversi, lalu TU mengumumkan hasil konversi tersebut.
+  4. Mahasiswa mengisi KRS sesuai daftar mata kuliah konversi atas persetujuan Dosen Wali.
+  5. Pelaksanaan: Mengikuti aturan kerja mitra, melakukan pembimbingan dengan DPM kampus minimal 4 kali selama program berjalan, mengisi lembar aktivitas harian.
+  6. Pelaporan & Penilaian: Laporan dibuat softcopy, disetujui DPM dan disahkan Koprodi, dikumpulkan paling lambat 14 hari kerja setelah selesai. Evaluasi nilai sepenuhnya dikeluarkan oleh mitra industri, kemudian Koprodi melakukan input nilai ke Sistem Informasi Akademik kampus.
+
+================================================================================
+BAB 5: PROSES PEMBIMBINGAN MAGANG
+================================================================================
+A. KRITERIA DOSEN PEMBIMBING MAGANG (DPM)
+1. Merupakan Dosen Tetap / Dosen Wali Program Studi Sistem Informasi UNSIKA.
+2. Memiliki Surat Tugas resmi sebagai dosen pembimbing magang yang ditetapkan melalui Keputusan Dekan Fasilkom.
+
+B. RINCIAN TUGAS DOSEN PEMBIMBING
+1. Mengarahkan mahasiswa terkait teknis pelaksanaan kerja di lokasi mitra.
+2. Membimbing substansi dan format penulisan laporan magang.
+3. Memberikan validasi dan persetujuan (TTD) atas laporan akhir jika dinyatakan layak.
+4. Menyediakan waktu konsultasi bimbingan minimal 1 kali seminggu dan menandatangani lembar bimbingan mahasiswa.
+
+C. KETENTUAN DAN ETIKA BIMBINGAN
+1. Bimbingan harus sudah dimulai SEBELUM mahasiswa terjun ke tempat magang untuk menyelaraskan topik.
+2. Mahasiswa wajib mematuhi pedoman format penulisan laporan.
+3. Mahasiswa wajib menghargai waktu DPM dan mentor lapangan.
+4. Frekuensi bimbingan minimal 1 kali per minggu.
+5. Mahasiswa wajib menjaga etika berkomunikasi (sopan, formal) dan berperilaku baik di kampus maupun di tempat magang.
+
+================================================================================
+BAB 6: FORMAT DAN STRUKTUR PENULISAN LAPORAN MAGANG
+================================================================================
+A. STRUKTUR UTAMA LAPORAN
+1. Bagian Awal:
+   a. Sampul Depan (Soft cover sesuai standar warna makara prodi)
+   b. Lembar Pengesahan I (Persetujuan Mentor Mitra Industri - Khusus Umum & Mandiri)
+   c. Lembar Pengesahan II (Persetujuan DPM & Koprodi; ditambah Dosen Penguji khusus Mandiri)
+   d. Kata Pengantar
+   e. Abstrak (Maksimal 250 kata, diakhiri maksimal 7 kata kunci)
+   f. Daftar Isi, Daftar Tabel, Daftar Gambar, Daftar Lampiran
+2. Bagian Isi:
+   a. BAB I: PENDAHULUAN
+   b. BAB II: LANDASAN TEORI
+   c. BAB III: AKTIVITAS MAGANG (Isi bervariasi sesuai jenis kegiatan: Riset, Implementatif, atau Non-Implementatif)
+   d. BAB IV: PENUTUP
+3. Bagian Akhir:
+   a. Daftar Pustaka (Menggunakan format standar APA Style, spasi 1, hanging indent 1 cm)
+   b. Lampiran Dokumen Pendukung
+
+B. ATURAN FORMAT LAYOUT DAN PENGETIKAN
+1. Jenis Font: Times New Roman.
+2. Spasi Antar Baris: 1,5 spasi.
+3. Batas Jumlah Halaman: Bagian isi utama (Bab 1 sampai Bab 4) MAKSIMAL 50 halaman.
+4. Ukuran Font Judul Bab: 14pt, Huruf Kapital Semua, Tebal (Bold), Posisi Tengah (Center).
+5. Ukuran Font Sub-Judul Bab: 13pt, Bold, Posisi Tepi Kiri (Left Alignment).
+6. Ukuran Font Badan Paragraf: 12pt, Reguler.
+7. Jenis Kertas: HVS 70 gram, Berwarna Putih, Ukuran A4.
+8. Batas Margin Kertas (Page Setup): Atas = 2,5 cm; Kiri = 3 cm; Kanan = 2,5 cm; Bawah = 2,5 cm.
+9. Indentasi Paragraf Baru: Dimulai menjorok 1 cm dari margin kiri.
+10. Penomoran Halaman: Angka Romawi Kecil (i, ii, iii...) untuk Bagian Awal. Angka Latin (1, 2, 3...) untuk Bagian Isi hingga Akhir. Letak nomor halaman berada di Tengah-Bawah halaman.
+11. Pengkodean Sub-Bab: Menggunakan kombinasi: Angka Romawi Besar untuk BAB (BAB I), Angka Latin untuk Sub-Bab (1.), Huruf Latin Kecil untuk Paragraf (a.), Angka Latin dengan kurung tutup untuk Sub-Paragraf (1) ).
+
+C. STRUKTUR RINCI OUTLINE PER BAB
+--------------------------------------------------------------------------------
+BAB I: PENDAHULUAN
+1. Profil Perusahaan / Instansi
+   a. Visi dan Misi Perusahaan/Instansi
+   b. Struktur Organisasi (Penjelasan bagan organisasi umum dan khusus unit magang)
+   c. Lingkup Unit Kerja (1. Lokasi unit kerja; 2. Tugas dan fungsi unit kerja magang)
+2. Rencana dan Penjadwalan Magang (Memuat tabel berisi tanggal magang, hari kerja, jam kerja).
+
+BAB II: LANDASAN TEORI
+Memuat konsep, framework, atau teori ilmiah yang relevan dengan aktivitas penugasan magang. Sumber harus valid (Buku teks, jurnal ilmiah, e-book resmi). Wajib menggunakan sitasi yang benar.
+
+BAB III: AKTIVITAS MAGANG (PILIH SALAH SATU OUTLINE SESUAI JENIS)
+- JIKA JENIS MAGANG = RISET / PENELITIAN:
+  1. Studi Kasus (a. Latar Belakang; b. Rumusan Masalah; c. Tujuan; d. Manfaat; e. Batasan Masalah)
+  2. Metode Penelitian (Tahapan/langkah ilmiah menyelesaikan masalah riset)
+  3. Hasil dan Pembahasan (Pemaparan hasil setiap tahapan riset dilengkapi tabel/gambar)
+
+- JIKA JENIS MAGANG = IMPLEMENTATIF:
+  1. Studi Kasus (a. Latar Belakang masalah software; b. Rumusan Masalah; c. Tujuan; d. Manfaat; e. Batasan Masalah)
+  2. Metodologi Pelaksanaan Magang / Pengembangan Sistem (Contoh jika menggunakan Prototype: Diagram alir prototype, Spesifikasi hardware/software, Pengumpulan kebutuhan, Pembangunan prototype, Pengkodean sistem, Pengujian sistem, Evaluasi sistem, Penggunaan sistem)
+  3. Hasil dan Pembahasan (Pemaparan hasil eksekusi coding, testing, dan implementasi fitur secara logis)
+
+- JIKA JENIS MAGANG = NON-IMPLEMENTATIF:
+  1. Observasi Permasalahan Tempat Magang (Studi kasus atau analisis objek sistem berjalan)
+  2. Metode/Pendekatan Pemecahan Masalah (Deskriptif, analitik, pemodelan, atau perancangan non-coding)
+  3. Hasil dan Pembahasan (Analisis data, rekomendasi tata kelola, atau desain model UI/UX)
+
+BAB IV: PENUTUP
+1. Kesimpulan: Ringkasan singkat pencapaian hasil magang yang menjawab tujuan awal (tanpa info baru).
+2. Saran: Rekomendasi perbaikan konkret untuk proses kerja mitra atau pengembangan sistem ke depan (format poin-poin).
+3. Keberlanjutan: Pernyataan masa depan terkait keberlanjutan pasca-magang.
+
+D. DAFTAR LAMPIRAN WAJIB PADA LAPORAN
+1. Lembar realisasi kegiatan magang.
+2. Salinan (copy) surat balasan/penerimaan resmi dari mitra.
+3. Salinan surat keterangan telah menyelesaikan magang dari mitra.
+4. Lembar Aktivitas Harian Magang (Logbook).
+5. Lembar Penilaian Magang dari Mitra (Mentor Lapangan).
+6. Lembar Penilaian Magang dari Dosen Pembimbing Magang.
+7. Lembar Bimbingan Magang (Minimal terisi 4 kali bimbingan).
+8. Dokumentasi foto kegiatan.
+
+================================================================================
+BAB 7: EVALUASI, PENILAIAN, & FORMULA NILAI AKHIR
+================================================================================
+--------------------------------------------------------------------------------
+SISTEM PENILAIAN MAGANG SKEMA UMUM
+--------------------------------------------------------------------------------
+- Komponen & Bobot Persentase Nilai Akhir (NA):
+  - Nilai Dosen Pembimbing Magang (DPM) = 40%
+  - Nilai Mentor Pembimbing Magang / Mitra (MPM) = 40%
+  - Nilai Presentasi Ujian Magang (P) = 20%
+- Rumus Perhitungan: NA = (0.40 * DPM) + (0.40 * MPM) + (0.20 * P)
+- Contoh Kasus Perhitungan:
+  Jika DPM = 80, MPM = 85, Presentasi = 86, maka:
+  NA = (0.40 * 80) + (0.40 * 85) + (0.20 * 86) = 32 + 34 + 17.2 = 83.2 (Konversi Huruf Mutu = A-)
+
+--------------------------------------------------------------------------------
+SISTEM PENILAIAN MAGANG SKEMA MANDIRI
+--------------------------------------------------------------------------------
+- Komponen & Bobot Persentase Nilai Akhir (NA):
+  - Nilai Dosen Pembimbing Magang (DPM) = 30%
+  - Nilai Mentor Pembimbing Magang / Mitra (MPM) = 40%
+  - Nilai Seminar Hasil Magang (P) = 30%
+- Rumus Perhitungan: NA = (0.30 * DPM) + (0.40 * MPM) + (0.30 * P)
+- Contoh Kasus Perhitungan:
+  Jika DPM = 90, MPM = 85, Seminar = 90, maka:
+  NA = (0.30 * 90) + (0.40 * 85) + (0.30 * 90) = 27 + 34 + 27 = 88 (Konversi Huruf Mutu = A)
+
+--------------------------------------------------------------------------------
+SISTEM PENILAIAN PROGRAM MBKM
+--------------------------------------------------------------------------------
+Evaluasi dan penilaian sepenuhnya ditentukan oleh pihak mitra industri penyelenggara MBKM. Nilai tersebut diserahkan mahasiswa ke Koprodi untuk dikonversikan ke mata kuliah kompetensi dalam SI Akad kampus.
+
+--------------------------------------------------------------------------------
+TABEL MATRIKS BOBOT UNSUR PENILAIAN (DPM & MPM)
+--------------------------------------------------------------------------------
+1. ASPEK KEDISIPLINAN (Total Bobot 30%)
+   - Ketepatan waktu / disiplin bimbingan/kerja: 5% (Pada form DPM bobot disiplin bimbingan adalah 15%)
+   - Sikap Kerja / Prosedur Kerja: 5%
+   - Tanggung Jawab terhadap tugas: 5%
+   - Kehadiran di lokasi kerja: 5% (Khusus penilaian MPM)
+   - Mematuhi aturan dan tata tertib magang: 5%
+   - Penampilan / Kerapian pakaian: 5% (Khusus penilaian MPM)
+2. ASPEK PRESTASI KERJA (Total Bobot 15%)
+   - Kemampuan kerja nyata: 5%
+   - Keterampilan Kerja lapangan: 5%
+   - Kualitas mutu hasil kerja: 5%
+3. ASPEK KEMAMPUAN BERADAPTASI (Total Bobot 20%)
+   - Kemampuan berkomunikasi formal: 5%
+   - Kerja sama dalam tim/kelompok: 5%
+   - Kerajinan / inisiatif mandiri: 5%
+   - Memiliki rasa percaya diri yang tinggi: 5%
+4. ASPEK LAPORAN MAGANG (Total Bobot 35%)
+   - Relevansi judul, metodologi, dan ilmu SI: 10%
+   - Isi kelengkapan dan kualitas laporan: 25%
+
+--------------------------------------------------------------------------------
+TABEL MATRIKS PENILAIAN UJIAN PRESENTASI / SEMINAR AKHIR
+--------------------------------------------------------------------------------
+- Kemampuan Presentasi (Teknis penyampaian, artikulasi): Bobot 30%
+- Kualitas Isi Dokumen Laporan: Bobot 40%
+- Kemampuan Diskusi (Tanya jawab dengan dosen penguji/pembimbing): Bobot 30%
+
+--------------------------------------------------------------------------------
+STANDAR MATRIKS KONVERSI NILAI ANGKA KE HURUF MUTU UNSIKA
+--------------------------------------------------------------------------------
+- Nilai Angka 85 - 100   = Huruf Mutu A
+- Nilai Angka 80 - 84.9  = Huruf Mutu A-
+- Nilai Angka 75 - 79.9  = Huruf Mutu B+
+- Nilai Angka 70 - 74.9  = Huruf Mutu B
+- Nilai Angka 65 - 69.9  = Huruf Mutu B-
+- Nilai Angka 60 - 64.9  = Huruf Mutu C+
+- Nilai Angka 50 - 59.9  = Huruf Mutu C
+- Nilai Angka 40 - 49.9  = Huruf Mutu D
+- Nilai Angka < 40       = Huruf Mutu E
+
+--------------------------------------------------------------------------------
+KETENTUAN KONVERSI 20 SKS PADA MAGANG MANDIRI
+--------------------------------------------------------------------------------
+1. Kesetaraan waktu: Mengacu Permendikbud No. 3 Tahun 2020 (1 SKS = 170 menit per minggu per semester atau setara dengan total 45.3 jam akumulatif per semester).
+2. Wajib memenuhi keselarasan antara aktivitas magang mandiri dengan Capaian Pembelajaran Mata Kuliah (CPMK) tujuan konversi.
+3. Maksimal SKS konversi adalah 20 SKS pada semester berjalan.
+4. Jika terdapat aktivitas kerja magang yang tidak dapat disetarakan dengan mata kuliah berjalan, maka capaian tersebut akan dimasukkan sebagai portofolio resmi pada SKPI (Surat Keterangan Pendamping Ijazah).
+
+================================================================================
+LAMPIRAN PROFIL LULUSAN & RANAH PROFESI KERJA MAGANG
+================================================================================
+A. MAHASISWA KURIKULUM 2022 (ANGKATAN 2021, 2022, 2023)
+1. Profil: Profesional Business Intelligence (Jenis: Riset/Implementatif/Non-Implementatif). Mampu menganalisis, merancang, mengolah, dan mengevaluasi data menjadi prospek keputusan bisnis.
+2. Profil: IT Auditor (Jenis: Implementatif). Mampu menganalisis risiko, penerapan sistem informasi, melindungi aset informasi, dan mendesain solusi audit tata kelola SI.
+3. Profil: eBusiness Actuator / Information System Developer / Technopreneur (Jenis: Implementatif). Mampu mengelola proses bisnis elektronik, merancang, membangun, memodelkan, mengintegrasikan data perusahaan, serta menciptakan ide bisnis digital mandiri.
+
+B. MAHASISWA KURIKULUM OBE 2024 (ANGKATAN 2024 DAN SETERUSNYA)
+1. Kemampuan: Menganalisis, merancang, membuat, dan mengevaluasi sistem informasi yang selaras dengan tujuan organisasi.
+   - Profesi: Data Management System (Data Analyst, Systems Analyst, Database Administrator), Programming and Software Development (Application Developer, Project Manager).
+2. Kemampuan: Memahami, menerapkan, dan mengintegrasikan model sistem dengan teknik peningkatan proses bisnis organisasi.
+   - Profesi: Computer System (Computer Support, Information Security, IT Consultant).
+3. Kemampuan: Menganalisis dan mengimplementasikan perencanaan infrastruktur sistem informasi pada organisasi.
+   - Profesi: Information Technology Audit (Auditor Sistem Informasi, Auditor Teknologi Informasi).
+4. Kemampuan: Profesional dan kolaboratif berbasis ekonomi kreatif dalam wilayah pertanian dan industri.
+   - Profesi: Technopreneur (Startup Founder, Digital Business Developer, IS Technopreneur).

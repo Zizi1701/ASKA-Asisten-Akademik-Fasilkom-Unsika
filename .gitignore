@@ -1,0 +1,10 @@
+env/
+.env
+__pycache__/
+*.py[cod]
+*.log
+logs/
+chat_history/
+tmp_*
+vectorstore/
+.vscode/
