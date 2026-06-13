@@ -2,12 +2,11 @@ langchain>=0.2.0
 langchain-google-genai>=1.0.0
 langchain-community>=0.2.0
 langchain-huggingface>=0.0.3
+fastapi
+uvicorn
+python-dotenv
 faiss-cpu
 pypdf
 tiktoken
-python-dotenv
-streamlit
 sentence-transformers
 torchvision
-fastapi>=0.103.0
-uvicorn>=0.23.0
