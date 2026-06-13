@@ -11,5 +11,3 @@ sentence-transformers
 torchvision
 fastapi>=0.103.0
 uvicorn>=0.23.0
-```> fastapi>=0.103.0
-uvicorn>=0.23.0
