@@ -29,6 +29,11 @@ app.add_middleware(
 
 from fastapi.responses import FileResponse
 
+@app.get("/Asisten Akademik Fasilkom Unsika.png")
+async def get_image():
+    # Pastikan file gambar ada di root folder Anda
+    return FileResponse("Asisten Akademik Fasilkom Unsika.png")
+
 @app.get("/")
 async def read_index():
     return FileResponse("index.html")
