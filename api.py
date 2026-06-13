@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_classic.chains import create_retrieval_chain, create_history_aware_retriever
-from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains import create_retrieval_chain, create_history_aware_retriever
+from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
 
@@ -27,25 +27,29 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load Database
-print("Loading Knowledge Base...")
-embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
-vectorstore = FAISS.load_local("vectorstore/faiss_index", embeddings, allow_dangerous_deserialization=True)
+# --- GLOBAL VARIABLES UNTUK LAZY LOADING ---
+_embeddings = None
+_vectorstore = None
+_rag_chain = None
 
-# Gunakan similarity agar lebih presisi untuk data akademik yang spesifik
-retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 10})
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+def get_rag_chain():
+    global _embeddings, _vectorstore, _rag_chain
+    if _rag_chain is None:
+        print("Loading Knowledge Base (Lazy Loaded)...")
+        _embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+        _vectorstore = FAISS.load_local("vectorstore/faiss_index", _embeddings, allow_dangerous_deserialization=True)
+        
+        retriever = _vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 10})
+        llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
 
-# --- PROMPT HISTORY ---
-contextualize_q_prompt = ChatPromptTemplate.from_messages([
-    ("system", "Mengingat riwayat obrolan dan pertanyaan terbaru pengguna, formulasikan pertanyaan mandiri. Jangan menjawab, cukup formulasikan ulang jika perlu."),
-    MessagesPlaceholder("chat_history"),
-    ("human", "{input}"),
-])
-history_aware_retriever = create_history_aware_retriever(llm, retriever, contextualize_q_prompt)
+        contextualize_q_prompt = ChatPromptTemplate.from_messages([
+            ("system", "Mengingat riwayat obrolan dan pertanyaan terbaru pengguna, formulasikan pertanyaan mandiri. Jangan menjawab, cukup formulasikan ulang jika perlu."),
+            MessagesPlaceholder("chat_history"),
+            ("human", "{input}"),
+        ])
+        history_aware_retriever = create_history_aware_retriever(llm, retriever, contextualize_q_prompt)
 
-# --- PROMPT UTAMA ---
-system_prompt = """Kamu adalah ASKA (Asisten Akademik Fasilkom UNSIKA). 
+        system_prompt = """Kamu adalah ASKA (Asisten Akademik Fasilkom UNSIKA). 
 TUGAS: Jawab pertanyaan mahasiswa HANYA berdasarkan KONTEKS DOKUMEN yang diberikan.
 
 KONTEKS DOKUMEN:
@@ -67,13 +71,15 @@ PANDUAN PENCARIAN (WAJIB DIIKUTI):
 - Jika nama yang diminta sangat mirip dengan nama di database, ANGGAP ITU ADALAH ORANG YANG SAMA. Jangan katakan data tidak ditemukan jika namanya hanya beda tipis.
 """
 
-qa_prompt = ChatPromptTemplate.from_messages([
-    ("system", system_prompt),
-    MessagesPlaceholder("chat_history"),
-    ("human", "{input}"),
-])
+        qa_prompt = ChatPromptTemplate.from_messages([
+            ("system", system_prompt),
+            MessagesPlaceholder("chat_history"),
+            ("human", "{input}"),
+        ])
 
-rag_chain = create_retrieval_chain(history_aware_retriever, create_stuff_documents_chain(llm, qa_prompt))
+        _rag_chain = create_retrieval_chain(history_aware_retriever, create_stuff_documents_chain(llm, qa_prompt))
+    
+    return _rag_chain
 
 # --- FUNGSI LOGGING ---
 def simpan_log(pesan_user, jawaban_ai, sumber_list, status="Success", error_msg=""):
@@ -105,6 +111,9 @@ class ChatRequest(BaseModel):
 @app.post("/chat")
 async def chat_endpoint(req: ChatRequest):
     try:
+        # Load chain dengan lazy loading
+        rag_chain = get_rag_chain()
+        
         chat_history = []
         if req.history:
             for msg in req.history[-6:]:
