@@ -29,12 +29,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- STARTUP LOADING (Dilakukan sekali saat server menyala) ---
+# --- STARTUP: Memuat model saat server baru menyala ---
 print("Initializing ASKA Knowledge Base...")
+# Menggunakan model yang lebih ringan agar tidak crash di RAM Render
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vectorstore = FAISS.load_local("vectorstore/faiss_index", embeddings, allow_dangerous_deserialization=True)
-retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3}) # k=3 agar ringan
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
+
+# Mengatur retriever dengan k=3 agar respons lebih cepat & ringan
+retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 contextualize_q_prompt = ChatPromptTemplate.from_messages([
     ("system", "Formulasikan ulang pertanyaan menjadi pertanyaan mandiri."),
@@ -44,7 +47,7 @@ contextualize_q_prompt = ChatPromptTemplate.from_messages([
 history_aware_retriever = create_history_aware_retriever(llm, retriever, contextualize_q_prompt)
 
 system_prompt = """Kamu adalah ASKA (Asisten Akademik Fasilkom UNSIKA). 
-Jawab berdasarkan konteks dokumen yang diberikan. Jika tidak ada, jawab: "Maaf, data tidak ditemukan."
+Jawab hanya berdasarkan konteks dokumen yang diberikan. Jika tidak ada, jawab: "Maaf, data tidak ditemukan."
 KONTEKS: {context}"""
 
 qa_prompt = ChatPromptTemplate.from_messages([
@@ -57,11 +60,11 @@ rag_chain = create_retrieval_chain(
     history_aware_retriever, 
     create_stuff_documents_chain(llm, qa_prompt)
 )
-print("ASKA Initialized!")
+print("ASKA Initialized and ready!")
 
 # --- ENDPOINTS ---
 
-@app.get("/")
+@app.get("/", include_in_schema=False)
 async def read_index():
     return FileResponse("index.html")
 
@@ -84,11 +87,13 @@ class ChatRequest(BaseModel):
 @app.post("/chat")
 async def chat_endpoint(req: ChatRequest):
     try:
+        # Mengonversi history dari frontend ke format LangChain
         chat_history = [
             HumanMessage(content=m.content) if m.role == "user" else AIMessage(content=m.content)
             for m in (req.history or [])[-6:]
         ]
 
+        # Menjalankan chain yang sudah di-load di awal
         resp = rag_chain.invoke({"input": req.pesan, "chat_history": chat_history})
         
         jawaban = resp["answer"]

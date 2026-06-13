@@ -268,30 +268,38 @@
             scrollToBottom();
 
             try {
-                const response = await fetch('http://localhost:8000/chat', {
-                    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ pesan: pesan })
-                });
-                const data = await response.json();
-                document.getElementById(loadingId).remove();
+            // Menambahkan timeout agar tidak menunggu selamanya (60 detik)
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 60000); 
 
-                if(data.status === "success") {
-                    simpanPesanKeDb('assistant', data.jawaban, data.sumber); // Simpan jawaban AI ke db
-                    updateRightPanel(data.sumber);
+            const response = await fetch('https://aska-api-cniz.onrender.com/chat', { 
+                method: 'POST', 
+                headers: { 'Content-Type': 'application/json' }, 
+                body: JSON.stringify({ pesan: pesan }),
+                signal: controller.signal // <--- Ini pengamannya
+            });
 
-                    let chipsHtml = '';
-                    if(data.sumber && data.sumber.length > 0) {
-                        chipsHtml = `<div class="mt-4 flex flex-wrap gap-2">${data.sumber.map(s => `<div class="inline-flex items-center gap-1 px-3 py-1 bg-[#fcfcfd] border border-gray-200 rounded-md text-[11px] text-[#8A1538] font-medium"><span class="material-symbols-outlined text-[14px]">description</span> ${s.replace('.txt','')}</div>`).join('')}</div>`;
-                    }
-                    const formatJawaban = data.jawaban.replace(/\n/g, '<br>');
-                    chatBox.innerHTML += `<div class="flex justify-start gap-4 animate-fade-in-up mb-6"><div class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-gray-200 bg-white flex items-center justify-center shrink-0 shadow-sm overflow-hidden p-1"><img src="Asisten Akademik Fasilkom Unsika.png" class="w-full h-full object-contain"/></div><div class="bg-[#ffffff] text-on-surface rounded-[4px_16px_16px_16px] px-6 py-5 max-w-[90%] border border-gray-100 shadow-[0_2px_10px_rgba(0,0,0,0.02)]"><p class="text-[14px] leading-relaxed text-gray-700">${formatJawaban}</p>${chipsHtml}</div></div>`;
-                } else throw new Error(data.message || "Gagal mendapatkan respon.");
-            } catch (error) {
-                if(document.getElementById(loadingId)) document.getElementById(loadingId).remove();
-                chatBox.innerHTML += `<div class="flex justify-start gap-4 animate-fade-in-up mb-6"><div class="bg-red-50 text-red-800 border border-red-200 rounded-[4px_16px_16px_16px] px-5 py-3 max-w-[85%]"><p class="text-[13px]">${error.message}</p></div></div>`;
-                updateRightPanel([]);
-            }
-            scrollToBottom();
-        }
+            clearTimeout(timeoutId);
+            const data = await response.json();
+            document.getElementById(loadingId).remove();
+
+            if(data.status === "success") {
+                simpanPesanKeDb('assistant', data.jawaban, data.sumber);
+                updateRightPanel(data.sumber);
+
+                let chipsHtml = '';
+                if(data.sumber && data.sumber.length > 0) {
+                    chipsHtml = `<div class="mt-4 flex flex-wrap gap-2">${data.sumber.map(s => `<div class="inline-flex items-center gap-1 px-3 py-1 bg-[#fcfcfd] border border-gray-200 rounded-md text-[11px] text-[#8A1538] font-medium"><span class="material-symbols-outlined text-[14px]">description</span> ${s.replace('.txt','')}</div>`).join('')}</div>`;
+                }
+                const formatJawaban = data.jawaban.replace(/\n/g, '<br>');
+                chatBox.innerHTML += `<div class="flex justify-start gap-4 animate-fade-in-up mb-6"><div class="w-8 h-8 md:w-10 md:h-10 rounded-full border border-gray-200 bg-white flex items-center justify-center shrink-0 shadow-sm overflow-hidden p-1"><img src="Asisten Akademik Fasilkom Unsika.png" class="w-full h-full object-contain"/></div><div class="bg-[#ffffff] text-on-surface rounded-[4px_16px_16px_16px] px-6 py-5 max-w-[90%] border border-gray-100 shadow-[0_2px_10px_rgba(0,0,0,0.02)]"><p class="text-[14px] leading-relaxed text-gray-700">${formatJawaban}</p>${chipsHtml}</div></div>`;
+            } else throw new Error(data.message || "Gagal dari server.");
+        } catch (error) {
+            if(document.getElementById(loadingId)) document.getElementById(loadingId).remove();
+            const msg = error.name === 'AbortError' ? "Server terlalu lama merespon. Silakan coba lagi." : error.message;
+            chatBox.innerHTML += `<div class="flex justify-start gap-4 mb-6"><div class="bg-red-50 text-red-800 border border-red-200 rounded-[4px_16px_16px_16px] px-5 py-3"><p class="text-[13px]">Error: ${msg}</p></div></div>`;
+           }
+     }
 
         // Trigger Event Listeners
         sendBtn.addEventListener('click', () => kirimPesan());
