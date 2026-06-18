@@ -29,10 +29,10 @@ Sebelum menjalankan proyek ini, pastikan komputermu sudah menginstal:
 
 Ikuti langkah-langkah di bawah ini secara berurutan untuk menjalankan ASKA di komputermu:
 
+```bash
 1. Clone Repositori
 Buka terminal/Command Prompt, lalu jalankan perintah ini:
 
-```bash
 git clone [https://github.com/username-kamu/nama-repositori-kamu.git](https://github.com/username-kamu/nama-repositori-kamu.git)
 cd nama-repositori-kamu
 (Ganti URL di atas dengan link repository GitHub milikmu).
