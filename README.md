@@ -29,8 +29,7 @@ Sebelum menjalankan proyek ini, pastikan komputermu sudah menginstal:
 
 Ikuti langkah-langkah di bawah ini secara berurutan untuk menjalankan ASKA di komputermu:
 
-###   1. Clone Repositori
-
+1. Clone Repositori
 Buka terminal/Command Prompt, lalu jalankan perintah ini:
 
 ```bash
@@ -38,7 +37,7 @@ git clone [https://github.com/username-kamu/nama-repositori-kamu.git](https://gi
 cd nama-repositori-kamu
 (Ganti URL di atas dengan link repository GitHub milikmu).
 
- ### 2. Buat Virtual Environment (Sangat Disarankan)
+2. Buat Virtual Environment (Sangat Disarankan)
 Agar library yang diinstal tidak mengganggu sistem Python komputermu, buat lingkungan virtual:
 Untuk Windows:
 
