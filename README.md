@@ -1,140 +1,103 @@
-# 🤖 Chatbot Akademik RAG - Sistem Cerdas
+# 🤖 ASKA - Asisten Akademik Fasilkom UNSIKA
 
-Repositori ini berisi proyek Ujian Akhir Semester (UAS) mata kuliah Sistem Cerdas. Proyek ini adalah sebuah Asisten Cerdas (Chatbot) Akademik untuk mahasiswa Sistem Informasi yang dibangun menggunakan arsitektur **Retrieval-Augmented Generation (RAG)**.
+ASKA adalah Chatbot cerdas berbasis **RAG (Retrieval-Augmented Generation)** yang dirancang untuk menjawab pertanyaan seputar akademik di Fakultas Ilmu Komputer (Fasilkom) UNSIKA.
 
-Chatbot ini dirancang untuk menjawab pertanyaan seputar jadwal akademik, aturan pengisian KRS, panduan skripsi, hingga regulasi magang secara cepat, akurat, dan faktual berdasarkan dokumen resmi kampus.
+Aplikasi ini dibangun menggunakan **FastAPI** sebagai backend, **LangChain** & **FAISS** untuk pemrosesan dokumen (vektor), dan ditenagai oleh model LLM **Google Gemini 2.5 Flash**.
+
+---
 
 ## ✨ Fitur Utama
 
-- **Anti-Halusinasi**: Chatbot hanya akan menjawab berdasarkan konteks yang ada di dalam buku pedoman resmi. Jika informasi tidak ditemukan, bot akan merespons dengan jujur.
-- **Pencarian Cerdas (Semantic Search)**: Menggunakan model _Embedding_ Multilingual untuk memahami makna dari pertanyaan berbahasa Indonesia, bukan sekadar mencocokkan kata kunci.
-- **Sitasi Transparan**: Setiap jawaban yang diberikan akan menyertakan sumber referensi (nomor halaman dan kutipan asli) dari dokumen PDF terkait.
-- **Local Vector Database**: Dokumen diproses dan disimpan secara luring (_offline_) menggunakan FAISS untuk mempercepat waktu respons dan menghemat biaya API.
-
-## 🛠️ Teknologi yang Digunakan
-
-- **Bahasa Pemrograman**: Python 3
-- **LLM**: Google Gemini API (`gemini-2.5-flash`)
-- **Embedding Model**: HuggingFace (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`)
-- **Vector Store**: FAISS (Facebook AI Similarity Search)
-- **Framework**: LangChain
-
-## 📁 Struktur Direktori
-
-```text
-CHATBOTAKADEMIK/
-│
-├── data/                               # Folder berisi file PDF pedoman akademik kampus
-├── env/                                # Virtual Environment Python
-├── vectorstore/
-│   └── faiss_index/                    # Folder penyimpanan database vektor hasil embedding
-│
-├── .env                                # File rahasia untuk menyimpan kredensial API Key
-├── .gitignore                          # Daftar file dan folder yang diabaikan oleh Git
-├── chatbot.py                          # Skrip utama logika RAG dan antarmuka Chatbot
-├── ingest_data.py                      # Skrip untuk mengekstrak teks PDF dan membuat Vector Database
-└── requirements.txt                    # Daftar library Python yang dibutuhkan proyek
-```
-
-## 🚀 Cara Menjalankan Proyek
-
-### 1️⃣ Kloning Repositori
-
-Unduh kode sumber ke komputer Anda:
-
-```bash
-git clone https://github.com/muhiqballz/Chatbot-Akademik-RAG.git
-cd Chatbot-Akademik-RAG
-```
+- **Pencarian Semantik:** Memahami konteks pertanyaan (bukan sekadar pencocokan kata) menggunakan model embedding Multilingual.
+- **Hybrid/MMR Search:** Mampu mencari data secara merata di berbagai dokumen berbeda (Tabel Dosen, Jadwal Kelas, Panduan Magang, dll).
+- **Riwayat Percakapan (Memory):** Chatbot mampu mengingat konteks pertanyaan sebelumnya.
+- **Frontend Responsif:** Antarmuka obrolan yang bersih dan modern menggunakan HTML & TailwindCSS.
 
 ---
 
-### 2️⃣ Siapkan Virtual Environment
+## 🛠️ Persyaratan Sistem (Prerequisites)
 
-Disarankan menggunakan virtual environment agar dependensi terisolasi.
+Sebelum menjalankan proyek ini, pastikan komputermu sudah menginstal:
 
-#### 🪟 Windows:
+1. **Python 3.8** atau versi lebih baru.
+2. **Git** (Opsional, untuk proses cloning).
+3. **Gemini API Key** (Dapatkan secara gratis dari [Google AI Studio](https://aistudio.google.com/)).
+
+---
+
+## 🚀 Cara Menjalankan Aplikasi Secara Lokal (Step-by-Step)
+
+Ikuti langkah-langkah di bawah ini secara berurutan untuk menjalankan ASKA di komputermu:
+
+### 1. Clone Repositori
+
+Buka terminal/Command Prompt, lalu jalankan perintah ini:
 
 ```bash
+git clone [https://github.com/username-kamu/nama-repositori-kamu.git](https://github.com/username-kamu/nama-repositori-kamu.git)
+cd nama-repositori-kamu
+(Ganti URL di atas dengan link repository GitHub milikmu).
+
+2. Buat Virtual Environment (Sangat Disarankan)
+Agar library yang diinstal tidak mengganggu sistem Python komputermu, buat lingkungan virtual:
+Untuk Windows:
+
+Bash
 python -m venv env
-.\env\Scripts\activate
-```
+env\Scripts\activate
+Untuk Mac/Linux:
 
-#### 🍎 Mac/Linux:
-
-```bash
+Bash
 python3 -m venv env
 source env/bin/activate
-```
+3. Instal Library yang Dibutuhkan
+Pastikan kamu sudah berada di dalam virtual environment, lalu instal semua dependensi dari file requirements.txt:
 
-💡 **Catatan:** Pastikan muncul `(env)` di terminal sebagai tanda environment aktif.
-
----
-
-### 3️⃣ Instalasi Dependensi
-
-Instal semua library yang dibutuhkan:
-
-```bash
+Bash
 pip install -r requirements.txt
-```
+4. Konfigurasi API Key (.env)
+Buat file baru bernama .env di folder utama proyek (sejajar dengan api.py).
 
----
+Buka file .env tersebut dan masukkan Gemini API Key milikmu dengan format seperti ini:
 
-### 4️⃣ Konfigurasi API Key (Google Gemini)
+Cuplikan kode
+GEMINI_API_KEY=masukkan_api_key_kamu_disini
+5. Buat Database FAISS (Ingestion)
+PENTING! Langkah ini wajib dilakukan pertama kali agar chatbot memiliki "otak/pengetahuan" dari dokumen Fasilkom.
+Jalankan script pembuat database:
 
-Buat file `.env` di folder utama proyek, lalu isi dengan:
-
-```
-GEMINI_API_KEY=masukkan_api_key_gemini_anda_di_sini
-```
-
----
-
-### 5️⃣ Membangun Database Pengetahuan (Ingest Data)
-
-Jalankan perintah berikut untuk memproses file PDF menjadi vector database (FAISS):
-
-```bash
+Bash
 python ingest_data.py
+(Tunggu prosesnya hingga selesai dan muncul keterangan bahwa Vectorstore berhasil dibuat. Ini akan memunculkan folder vectorstore/faiss_index).
+
+6. Jalankan Server FastAPI
+Setelah database berhasil dibuat, nyalakan server backend:
+
+Bash
+uvicorn api:app --reload
+7. Buka Frontend ASKA
+Jika server sudah menyala (ditandai dengan keterangan Application startup complete di terminal), silakan buka browser dan akses alamat berikut:
+👉 http://127.0.0.1:8000
+
+Selamat! ASKA sudah siap digunakan untuk menjawab seputar akademik Fasilkom UNSIKA. 🎉
+
+📁 Struktur Direktori
+/data/ : Folder tempat meletakkan file .txt atau dokumen sumber (jadwal, daftar dosen, panduan).
+
+/vectorstore/ : Folder hasil ekstraksi FAISS (akan muncul setelah menjalankan ingest_data.py).
+
+api.py : Kode utama untuk backend server FastAPI dan konfigurasi rantai RAG LangChain.
+
+ingest_data.py : Script untuk membaca dokumen /data dan mengubahnya menjadi vektor (embedding).
+
+index.html : Halaman antarmuka web (UI) untuk ngobrol dengan chatbot.
+
+
+***
+
+### Cara menggunakannya:
+1. Buka file `README.md` di proyek VSCode kamu.
+2. Timpa (replace) semua isinya dengan teks di atas.
+3. Ingat untuk mengubah bagian `[https://github.com/username-kamu/nama-repositori-kamu.git](https://github.com/username-kamu/nama-repositori-kamu.git)` di Langkah 1 dengan URL asli repositori GitHub kamu.
+4. Jangan lupa **Save (Ctrl+S)** dan *push* ulang ke GitHub!
 ```
-
-⚠️ **Penting:**
-
-- Hanya perlu dijalankan sekali di awal
-- Jalankan ulang jika ada perubahan/penambahan file PDF di folder `data/`
-
----
-
-### 6️⃣ Jalankan Chatbot (Terminal) 🎉
-
-Mulai chatbot dan lakukan percakapan:
-
-```bash
-python chatbot.py
-```
-
----
-
-### 7️⃣ Jalankan Web Chatbot 🎉
-
-Mulai web chatbot dan lakukan percakapan:
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 🧠 Teknologi yang Digunakan
-
-- LangChain
-- FAISS (Vector Database)
-- Google Gemini API
-- Python
-
----
-
-## 📌 Catatan
-
-Pastikan koneksi internet aktif saat menggunakan chatbot karena membutuhkan akses ke API Google Gemini.
